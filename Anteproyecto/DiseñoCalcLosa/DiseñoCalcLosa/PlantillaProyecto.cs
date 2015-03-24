@@ -18,8 +18,8 @@ namespace DiseñoCalcLosa //arreglar namespace para que funcione en el proyecto 
             private Object oMissing = System.Reflection.Missing.Value;
             
             // localizando el objeto de salido con la ruta
-            private Object oTemplatePath = "C:/Users/Willson Acevedo/Documents/Anteproyecto/Anteproyecto/DiseñoCalcLosa/DiseñoCalcLosa/bin/Debug/complementos/Plantilla_losa1.dotx";//arreglar // o \\ 
- 
+            private Object oTemplatePath = "C:/Users/Willson Acevedo/slab_calculator/Anteproyecto/DiseñoCalcLosa/DiseñoCalcLosa/bin/Debug/complementos/Plantilla_losa2.dotx";//arreglar // o \\ 
+                                          
             //creando instancia de aplicacion que se usara 
             private Application wordApp = new Application();
             // creando instancia del documento
