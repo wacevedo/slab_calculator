@@ -30,14 +30,18 @@ namespace DiseñoCalcLosa
             ReleaseCapture();
             SendMessage(this.Handle, 0x112, 0xf012, 0);
         }
+        //lista de proyectos que va a despregarse en el listviws
         List<DatabaseLosa.Proyecto> listp;
-        ImageList il, ilxl;
+        ImageList il, ilxl;//lista de imagenes de los iconos
+
         private void AbrirProyectoForm_Load(object sender, EventArgs e)
         {
-            il = new ImageList();
-            groupBoxAbrir.AllowDrop = true; 
-            DirectoryInfo dir = new DirectoryInfo(@"complementos\ico");//C:\Users\Willson Acevedo\Documents\Anteproyecto\Anteproyecto\DiseñoCalcLosa\
-            foreach (FileInfo file in dir.GetFiles())
+            groupBoxAbrir.AllowDrop = true;//cambiando propiedad de para arrastras archivos 
+
+            il = new ImageList();//inicializando variable de lista de iconos pequeños
+            
+            DirectoryInfo dir = new DirectoryInfo(@"complementos\ico"); //directorio de los iconos pequeños
+            foreach (FileInfo file in dir.GetFiles()) 
             {
                 try
                 {
@@ -49,9 +53,9 @@ namespace DiseñoCalcLosa
                 }
             }
 
-            ilxl = new ImageList();
+            ilxl = new ImageList();//inicializando variable de lista de iconos pequeños
 
-            DirectoryInfo dirxl = new DirectoryInfo(@"complementos\ico\large");//C:\Users\Willson Acevedo\Documents\Anteproyecto\Anteproyecto\DiseñoCalcLosa\
+            DirectoryInfo dirxl = new DirectoryInfo(@"complementos\ico\large");//directorio de los iconos pequeños
             foreach (FileInfo file in dirxl.GetFiles())
             {
                 try
@@ -65,18 +69,20 @@ namespace DiseñoCalcLosa
             }
                
                                     
-            ilxl.ImageSize = new Size(50, 50);
+            ilxl.ImageSize = new Size(50, 50);//cambiando tamaño para los iconos grandes
             int count = 0;
-            listViewProyectosRecientes.LargeImageList = ilxl;
-            listViewProyectosRecientes.SmallImageList = il;            
-            listp = new List<DatabaseLosa.Proyecto>();
-            DatabaseLosa.Broker b = new DatabaseLosa.Broker();            
-            listp = b.selectProyectos();
-            foreach (DatabaseLosa.Proyecto p in listp)
+            listViewProyectosRecientes.LargeImageList = ilxl;//agregando iconos grandes
+            listViewProyectosRecientes.SmallImageList = il;  //agregando iconos pequeños          
+            listp = new List<DatabaseLosa.Proyecto>();       //inicializando lista de proyectos    
+            DatabaseLosa.Broker b = new DatabaseLosa.Broker();//inicializando la clase que conecta a la base de datos
+            listp = b.selectProyectos();                     //llenando lista de proyectos 
+
+            //llenando listview
+            foreach (DatabaseLosa.Proyecto p in listp)        
             {
                 ListViewItem lst = new ListViewItem();
                 lst.Text = p.Nombre;
-                lst.SubItems.Add(p.Fecha);//s
+                lst.SubItems.Add(p.Fecha);
                 lst.ImageIndex = count;
                 listViewProyectosRecientes.Items.Add(lst);
             }
@@ -89,6 +95,7 @@ namespace DiseñoCalcLosa
             m.Show();
         }
 
+        //metodo para el boton que cambia las vistas de listview
         private void buttonExport_Click(object sender, EventArgs e)
         {
             if (listViewProyectosRecientes.View == View.Details)
@@ -123,15 +130,15 @@ namespace DiseñoCalcLosa
             {                
                 if (p.Nombre.ToLower().Contains(textBox1.Text.ToLower()) || string.IsNullOrEmpty(textBox1.Text))
                 {
-                    ListViewItem it = new ListViewItem();
+                    ListViewItem it = new ListViewItem();//crea item del listview
                     it.Text = p.Nombre;
-                    it.SubItems.Add(p.Fecha);//
-                    it.ImageIndex = 0;
-                    listViewProyectosRecientes.Items.Add(it);
+                    it.SubItems.Add(p.Fecha); //agreaganto atributo
+                    it.ImageIndex = 0; //tomando primera (y unica imagen)
+                    listViewProyectosRecientes.Items.Add(it);//agregando item
                 }
             } 
         }
-
+        //metodo que llama el doble click para abrir el proyecto
         private void listViewProyectosRecientes_DoubleClick(object sender, EventArgs e)
         {
             if (listViewProyectosRecientes.SelectedItems.Count > 0)
@@ -145,6 +152,7 @@ namespace DiseñoCalcLosa
             }
         }
 
+        //metodo para el drag del "arrastre y suelte" que copia el archivo arrastrado
         private void groupBoxProRecient_DragEnter(object sender, DragEventArgs e)
         {
             if (e.Data.GetDataPresent(DataFormats.FileDrop))
@@ -154,10 +162,10 @@ namespace DiseñoCalcLosa
             else
                 e.Effect = DragDropEffects.None;
         }
-
+        //metodo que habre el archivo .slc o .xml
         private void groupBoxProRecient_DragDrop(object sender, DragEventArgs e)
         {
-            string[] Filelist = (string[])e.Data.GetData(DataFormats.FileDrop, false);
+            string[] Filelist = (string[])e.Data.GetData(DataFormats.FileDrop, false); //toma la lista de archivos que fueron arrastrados
 
             if ((System.IO.Path.GetExtension(Filelist[0]).ToUpperInvariant() == ".XML") || (System.IO.Path.GetExtension(Filelist[0]).ToUpperInvariant() == ".SLC"))
             {                
