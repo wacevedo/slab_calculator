@@ -1,0 +1,5 @@
+C:\Users\Willson Acevedo\Documents\Anteproyecto\Anteproyecto\DiseñoCalcLosa\DatabaseLosa\bin\Debug\DatabaseLosa.dll
+C:\Users\Willson Acevedo\Documents\Anteproyecto\Anteproyecto\DiseñoCalcLosa\DatabaseLosa\bin\Debug\DatabaseLosa.pdb
+C:\Users\Willson Acevedo\Documents\Anteproyecto\Anteproyecto\DiseñoCalcLosa\DatabaseLosa\obj\Debug\DatabaseLosa.csprojResolveAssemblyReference.cache
+C:\Users\Willson Acevedo\Documents\Anteproyecto\Anteproyecto\DiseñoCalcLosa\DatabaseLosa\obj\Debug\DatabaseLosa.dll
+C:\Users\Willson Acevedo\Documents\Anteproyecto\Anteproyecto\DiseñoCalcLosa\DatabaseLosa\obj\Debug\DatabaseLosa.pdb

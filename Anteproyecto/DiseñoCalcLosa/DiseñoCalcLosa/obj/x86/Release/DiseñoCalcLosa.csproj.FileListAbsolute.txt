@@ -1,0 +1,3 @@
+C:\Users\Willson Acevedo\Documents\Anteproyecto\Anteproyecto\DiseñoCalcLosa\DiseñoCalcLosa\obj\x86\Release\Interop.WMPLib.dll
+C:\Users\Willson Acevedo\Documents\Anteproyecto\Anteproyecto\DiseñoCalcLosa\DiseñoCalcLosa\obj\x86\Release\AxInterop.WMPLib.dll
+C:\Users\Willson Acevedo\Documents\Anteproyecto\Anteproyecto\DiseñoCalcLosa\DiseñoCalcLosa\obj\x86\Release\DiseñoCalcLosa.csproj.ResolveComReference.cache

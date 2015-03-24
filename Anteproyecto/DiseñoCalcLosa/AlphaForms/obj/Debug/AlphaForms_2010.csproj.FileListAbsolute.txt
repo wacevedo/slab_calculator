@@ -1,0 +1,9 @@
+C:\Users\Willson Acevedo\Desktop\AlphaForms_src\AlphaForms\bin\Debug\AlphaForms.dll
+C:\Users\Willson Acevedo\Desktop\AlphaForms_src\AlphaForms\bin\Debug\AlphaForms.pdb
+C:\Users\Willson Acevedo\Desktop\AlphaForms_src\AlphaForms\obj\Debug\AlphaForms.dll
+C:\Users\Willson Acevedo\Desktop\AlphaForms_src\AlphaForms\obj\Debug\AlphaForms.pdb
+C:\Users\Willson Acevedo\Documents\Anteproyecto\Anteproyecto\DiseñoCalcLosa\AlphaForms\bin\Debug\AlphaForms.dll
+C:\Users\Willson Acevedo\Documents\Anteproyecto\Anteproyecto\DiseñoCalcLosa\AlphaForms\bin\Debug\AlphaForms.pdb
+C:\Users\Willson Acevedo\Documents\Anteproyecto\Anteproyecto\DiseñoCalcLosa\AlphaForms\obj\Debug\AlphaForms_2010.csprojResolveAssemblyReference.cache
+C:\Users\Willson Acevedo\Documents\Anteproyecto\Anteproyecto\DiseñoCalcLosa\AlphaForms\obj\Debug\AlphaForms.dll
+C:\Users\Willson Acevedo\Documents\Anteproyecto\Anteproyecto\DiseñoCalcLosa\AlphaForms\obj\Debug\AlphaForms.pdb

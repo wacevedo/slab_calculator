@@ -1,0 +1,351 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2BEA93EC-81E7-49C9-9F1D-C1D9CCBE48E0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DiseñoCalcLosa</RootNamespace>
+    <AssemblyName>DiseñoCalcLosa</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>DiseñoCalcLosa.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AbrirProyectoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AbrirProyectoForm.Designer.cs">
+      <DependentUpon>AbrirProyectoForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CalculoCarga.cs" />
+    <Compile Include="CalculosLosa.cs" />
+    <Compile Include="CalculosProyecto.cs" />
+    <Compile Include="EntrepisoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EntrepisoForm.Designer.cs">
+      <DependentUpon>EntrepisoForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CuantificaciondeCargasForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CuantificaciondeCargasForm.Designer.cs">
+      <DependentUpon>CuantificaciondeCargasForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CrearProyectForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CrearProyectForm.Designer.cs">
+      <DependentUpon>CrearProyectForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LosaXml.cs" />
+    <Compile Include="Plantilla.cs" />
+    <Compile Include="PlantillaProyecto.cs" />
+    <Compile Include="TablaDeCoeficientesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TablaDeCoeficientesForm.Designer.cs">
+      <DependentUpon>TablaDeCoeficientesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TechoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TechoForm.Designer.cs">
+      <DependentUpon>TechoForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuForm.Designer.cs">
+      <DependentUpon>MenuForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PLosa.cs" />
+    <Compile Include="CalcLosaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CalcLosaForm.Designer.cs">
+      <DependentUpon>CalcLosaForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="VerProyectoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VerProyectoForm.Designer.cs">
+      <DependentUpon>VerProyectoForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AbrirProyectoForm.resx">
+      <DependentUpon>AbrirProyectoForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EntrepisoForm.resx">
+      <DependentUpon>EntrepisoForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CuantificaciondeCargasForm.resx">
+      <DependentUpon>CuantificaciondeCargasForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrearProyectForm.resx">
+      <DependentUpon>CrearProyectForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TablaDeCoeficientesForm.resx">
+      <DependentUpon>TablaDeCoeficientesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CalcLosaForm.resx">
+      <DependentUpon>CalcLosaForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuForm.resx">
+      <DependentUpon>MenuForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="TechoForm.resx">
+      <DependentUpon>TechoForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VerProyectoForm.resx">
+      <DependentUpon>VerProyectoForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coeficientes de momentos en losas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coeficientes de momentos en losas1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add_list-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add_file-26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\structural-26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\opened_folder-26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\import-26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\export-26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unchecked_checkbox-26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\documents_folder-26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\xml-26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dropbox-26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\skydrive-26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>7</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Word">
+      <Guid>{00020905-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>8</VersionMajor>
+      <VersionMinor>6</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu-26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\basement-26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\roofing-26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\overview_pages_4-26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\attack %287%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondodepantallaporsiempre.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\photo_2015-01-31_23-18-53.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\left_round-26b.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calculator-26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\repeat-26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete-26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save-26black.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AlphaForms\AlphaForms_2010.csproj">
+      <Project>{E5B368EE-995A-4A7F-9CBA-25D81D07F97D}</Project>
+      <Name>AlphaForms_2010</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DatabaseLosa\DatabaseLosa.csproj">
+      <Project>{AAFE6523-728E-46F0-894A-8AE178792554}</Project>
+      <Name>DatabaseLosa</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\overview_pages_3-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\overview_pages_3-26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Search-26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Open In Browser-26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\word_logo_copyrighted-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\word_logo_copyrighted-26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\complementos\Circle.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\complementos\image_830530.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add_file-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Opened Folder-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\documents_folder-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settings-25.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settings_filled-25.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

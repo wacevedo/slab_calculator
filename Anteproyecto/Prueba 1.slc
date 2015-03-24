@@ -1,0 +1,49 @@
+<Proyecto>
+  <Nombre>Prueba 1</Nombre>
+  <Usuario>Ing. Pedro Ml. Rosario Espinal</Usuario>
+  <Tipo_losa>Techo</Tipo_losa>
+  <Pandereta>-1</Pandereta>
+  <Peso_concreto>21</Peso_concreto>
+  <Terminacion>21</Terminacion>
+  <Recubrimiento>0.001</Recubrimiento>
+  <Fy>21</Fy>
+  <Fc>321</Fc>
+  <Estado>Terminado</Estado>
+  <Tipo_edificio>Edificio para Comercios</Tipo_edificio>
+  <Fecha>03/20/2015 12:01:52 AM</Fecha>
+  <Losas>
+    <losa>
+      <Nombre>Losa 1</Nombre>
+      <Lx>5</Lx>
+      <Ly>5</Ly>
+      <BordesY>1</BordesY>
+      <Bordesx>1</Bordesx>
+      <Xy>Y</Xy>
+      <Hinclinacion>210</Hinclinacion>
+      <Carga_viva>1</Carga_viva>
+      <Carga_adicional>500</Carga_adicional>
+    </losa>
+    <losa>
+      <Nombre>Losa 2</Nombre>
+      <Lx>3</Lx>
+      <Ly>4</Ly>
+      <BordesY>2</BordesY>
+      <Bordesx>1</Bordesx>
+      <Xy>X</Xy>
+      <Hinclinacion>20</Hinclinacion>
+      <Carga_viva>10</Carga_viva>
+      <Carga_adicional>500</Carga_adicional>
+    </losa>
+    <losa>
+      <Nombre>Losa 3</Nombre>
+      <Lx>5</Lx>
+      <Ly>7</Ly>
+      <BordesY>0</BordesY>
+      <Bordesx>0</Bordesx>
+      <Xy>X</Xy>
+      <Hinclinacion>2</Hinclinacion>
+      <Carga_viva>100</Carga_viva>
+      <Carga_adicional>500</Carga_adicional>
+    </losa>
+  </Losas>
+</Proyecto>

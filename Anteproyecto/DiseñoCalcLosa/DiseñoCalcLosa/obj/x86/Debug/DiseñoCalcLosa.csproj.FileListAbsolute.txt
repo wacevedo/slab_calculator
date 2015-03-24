@@ -1,0 +1,50 @@
+c:\users\willson acevedo\documents\visual studio 2010\Projects\DiseñoCalcLosa\DiseñoCalcLosa\obj\x86\Debug\DiseñoCalcLosa.Form1.resources
+c:\users\willson acevedo\documents\visual studio 2010\Projects\DiseñoCalcLosa\DiseñoCalcLosa\obj\x86\Debug\DiseñoCalcLosa.MainForm.resources
+c:\users\willson acevedo\documents\visual studio 2010\Projects\DiseñoCalcLosa\DiseñoCalcLosa\obj\x86\Debug\DiseñoCalcLosa.Properties.Resources.resources
+c:\users\willson acevedo\documents\visual studio 2010\Projects\DiseñoCalcLosa\DiseñoCalcLosa\obj\x86\Debug\DiseñoCalcLosa.csproj.GenerateResource.Cache
+c:\users\willson acevedo\documents\visual studio 2010\Projects\DiseñoCalcLosa\DiseñoCalcLosa\bin\Debug\DiseñoCalcLosa.exe
+c:\users\willson acevedo\documents\visual studio 2010\Projects\DiseñoCalcLosa\DiseñoCalcLosa\bin\Debug\DiseñoCalcLosa.pdb
+c:\users\willson acevedo\documents\visual studio 2010\Projects\DiseñoCalcLosa\DiseñoCalcLosa\obj\x86\Debug\DiseñoCalcLosa.exe
+c:\users\willson acevedo\documents\visual studio 2010\Projects\DiseñoCalcLosa\DiseñoCalcLosa\obj\x86\Debug\DiseñoCalcLosa.pdb
+c:\users\willson acevedo\documents\visual studio 2010\Projects\DiseñoCalcLosa\DiseñoCalcLosa\obj\x86\Debug\DiseñoCalcLosa.Form2.resources
+C:\Users\Willson Acevedo\documents\visual studio 2010\Projects\DiseñoCalcLosa\DiseñoCalcLosa\bin\Debug\Interop.WMPLib.dll
+C:\Users\Willson Acevedo\documents\visual studio 2010\Projects\DiseñoCalcLosa\DiseñoCalcLosa\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Willson Acevedo\documents\visual studio 2010\Projects\DiseñoCalcLosa\DiseñoCalcLosa\obj\x86\Debug\Interop.WMPLib.dll
+C:\Users\Willson Acevedo\documents\visual studio 2010\Projects\DiseñoCalcLosa\DiseñoCalcLosa\obj\x86\Debug\AxInterop.WMPLib.dll
+C:\Users\Willson Acevedo\documents\visual studio 2010\Projects\DiseñoCalcLosa\DiseñoCalcLosa\obj\x86\Debug\DiseñoCalcLosa.csproj.ResolveComReference.cache
+C:\Users\Willson Acevedo\documents\visual studio 2010\Projects\DiseñoCalcLosa\DiseñoCalcLosa\obj\x86\Debug\DiseñoCalcLosa.MenuForm.resources
+C:\Users\Willson Acevedo\documents\visual studio 2010\Projects\DiseñoCalcLosa\DiseñoCalcLosa\obj\x86\Debug\DiseñoCalcLosa.EntrepisoForm.resources
+C:\Users\Willson Acevedo\documents\visual studio 2010\Projects\DiseñoCalcLosa\DiseñoCalcLosa\obj\x86\Debug\DiseñoCalcLosa.EspesoresViwsForm.resources
+C:\Users\Willson Acevedo\documents\visual studio 2010\Projects\DiseñoCalcLosa\DiseñoCalcLosa\obj\x86\Debug\DiseñoCalcLosa.TechoForm.resources
+C:\Users\Willson Acevedo\documents\visual studio 2010\Projects\DiseñoCalcLosa\DiseñoCalcLosa\obj\x86\Debug\DiseñoCalcLosa.Form3.resources
+C:\Users\Willson Acevedo\Desktop\Anteproyecto\DiseñoCalcLosa\DiseñoCalcLosa\obj\x86\Debug\Interop.WMPLib.dll
+C:\Users\Willson Acevedo\Desktop\Anteproyecto\DiseñoCalcLosa\DiseñoCalcLosa\obj\x86\Debug\AxInterop.WMPLib.dll
+C:\Users\Willson Acevedo\Desktop\Anteproyecto\DiseñoCalcLosa\DiseñoCalcLosa\obj\x86\Debug\DiseñoCalcLosa.csproj.ResolveComReference.cache
+C:\Users\Willson Acevedo\Desktop\Anteproyecto\DiseñoCalcLosa\DiseñoCalcLosa\obj\x86\Debug\DiseñoCalcLosa.exe
+C:\Users\Willson Acevedo\Desktop\Anteproyecto\DiseñoCalcLosa\DiseñoCalcLosa\obj\x86\Debug\DiseñoCalcLosa.pdb
+C:\Users\Willson Acevedo\Documents\Anteproyecto\Anteproyecto\DiseñoCalcLosa\DiseñoCalcLosa\obj\x86\Debug\Interop.WMPLib.dll
+C:\Users\Willson Acevedo\Documents\Anteproyecto\Anteproyecto\DiseñoCalcLosa\DiseñoCalcLosa\obj\x86\Debug\AxInterop.WMPLib.dll
+C:\Users\Willson Acevedo\Documents\Anteproyecto\Anteproyecto\DiseñoCalcLosa\DiseñoCalcLosa\obj\x86\Debug\DiseñoCalcLosa.csproj.ResolveComReference.cache
+C:\Users\Willson Acevedo\Documents\Anteproyecto\Anteproyecto\DiseñoCalcLosa\DiseñoCalcLosa\obj\x86\Debug\DiseñoCalcLosa.exe
+C:\Users\Willson Acevedo\Documents\Anteproyecto\Anteproyecto\DiseñoCalcLosa\DiseñoCalcLosa\obj\x86\Debug\DiseñoCalcLosa.pdb
+C:\Users\Willson Acevedo\Documents\Anteproyecto\Anteproyecto\DiseñoCalcLosa\DiseñoCalcLosa\bin\Debug\DiseñoCalcLosa.exe
+C:\Users\Willson Acevedo\Documents\Anteproyecto\Anteproyecto\DiseñoCalcLosa\DiseñoCalcLosa\bin\Debug\DiseñoCalcLosa.pdb
+C:\Users\Willson Acevedo\Documents\Anteproyecto\Anteproyecto\DiseñoCalcLosa\DiseñoCalcLosa\bin\Debug\Interop.WMPLib.dll
+C:\Users\Willson Acevedo\Documents\Anteproyecto\Anteproyecto\DiseñoCalcLosa\DiseñoCalcLosa\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Willson Acevedo\Documents\Anteproyecto\Anteproyecto\DiseñoCalcLosa\DiseñoCalcLosa\obj\x86\Debug\DiseñoCalcLosa.EntrepisoForm.resources
+C:\Users\Willson Acevedo\Documents\Anteproyecto\Anteproyecto\DiseñoCalcLosa\DiseñoCalcLosa\obj\x86\Debug\DiseñoCalcLosa.Form3.resources
+C:\Users\Willson Acevedo\Documents\Anteproyecto\Anteproyecto\DiseñoCalcLosa\DiseñoCalcLosa\obj\x86\Debug\DiseñoCalcLosa.MenuForm.resources
+C:\Users\Willson Acevedo\Documents\Anteproyecto\Anteproyecto\DiseñoCalcLosa\DiseñoCalcLosa\obj\x86\Debug\DiseñoCalcLosa.Properties.Resources.resources
+C:\Users\Willson Acevedo\Documents\Anteproyecto\Anteproyecto\DiseñoCalcLosa\DiseñoCalcLosa\obj\x86\Debug\DiseñoCalcLosa.TechoForm.resources
+C:\Users\Willson Acevedo\Documents\Anteproyecto\Anteproyecto\DiseñoCalcLosa\DiseñoCalcLosa\obj\x86\Debug\DiseñoCalcLosa.csproj.GenerateResource.Cache
+C:\Users\Willson Acevedo\Documents\Anteproyecto\Anteproyecto\DiseñoCalcLosa\DiseñoCalcLosa\obj\x86\Debug\DiseñoCalcLosa.CrearProyectForm.resources
+C:\Users\Willson Acevedo\Documents\Anteproyecto\Anteproyecto\DiseñoCalcLosa\DiseñoCalcLosa\obj\x86\Debug\DiseñoCalcLosa.TablaDeCoeficientesForm.resources
+C:\Users\Willson Acevedo\Documents\Anteproyecto\Anteproyecto\DiseñoCalcLosa\DiseñoCalcLosa\obj\x86\Debug\DiseñoCalcLosa.CalcLosaForm.resources
+C:\Users\Willson Acevedo\Documents\Anteproyecto\Anteproyecto\DiseñoCalcLosa\DiseñoCalcLosa\bin\Debug\DatabaseLosa.dll
+C:\Users\Willson Acevedo\Documents\Anteproyecto\Anteproyecto\DiseñoCalcLosa\DiseñoCalcLosa\bin\Debug\DatabaseLosa.pdb
+C:\Users\Willson Acevedo\Documents\Anteproyecto\Anteproyecto\DiseñoCalcLosa\DiseñoCalcLosa\obj\x86\Debug\DiseñoCalcLosa.csprojResolveAssemblyReference.cache
+C:\Users\Willson Acevedo\Documents\Anteproyecto\Anteproyecto\DiseñoCalcLosa\DiseñoCalcLosa\obj\x86\Debug\DiseñoCalcLosa.VerProyectoForm.resources
+C:\Users\Willson Acevedo\Documents\Anteproyecto\Anteproyecto\DiseñoCalcLosa\DiseñoCalcLosa\bin\Debug\AlphaForms.dll
+C:\Users\Willson Acevedo\Documents\Anteproyecto\Anteproyecto\DiseñoCalcLosa\DiseñoCalcLosa\bin\Debug\AlphaForms.pdb
+C:\Users\Willson Acevedo\Documents\Anteproyecto\Anteproyecto\DiseñoCalcLosa\DiseñoCalcLosa\obj\x86\Debug\DiseñoCalcLosa.AbrirProyectoForm.resources
+C:\Users\Willson Acevedo\Documents\Anteproyecto\Anteproyecto\DiseñoCalcLosa\DiseñoCalcLosa\obj\x86\Debug\DiseñoCalcLosa.CuantificaciondeCargasForm.resources

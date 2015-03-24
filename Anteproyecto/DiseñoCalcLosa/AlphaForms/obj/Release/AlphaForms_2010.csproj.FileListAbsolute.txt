@@ -1,0 +1,4 @@
+C:\Users\Willson Acevedo\Documents\Anteproyecto\Anteproyecto\DiseñoCalcLosa\AlphaForms\bin\Release\AlphaForms.dll
+C:\Users\Willson Acevedo\Documents\Anteproyecto\Anteproyecto\DiseñoCalcLosa\AlphaForms\bin\Release\AlphaForms.pdb
+C:\Users\Willson Acevedo\Documents\Anteproyecto\Anteproyecto\DiseñoCalcLosa\AlphaForms\obj\Release\AlphaForms.dll
+C:\Users\Willson Acevedo\Documents\Anteproyecto\Anteproyecto\DiseñoCalcLosa\AlphaForms\obj\Release\AlphaForms.pdb
