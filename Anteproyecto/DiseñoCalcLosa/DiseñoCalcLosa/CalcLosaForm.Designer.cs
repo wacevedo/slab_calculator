@@ -224,6 +224,7 @@
             // 
             // numericUpDownCantidadLosa
             // 
+            this.numericUpDownCantidadLosa.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.numericUpDownCantidadLosa.Location = new System.Drawing.Point(153, 67);
             this.numericUpDownCantidadLosa.Maximum = new decimal(new int[] {
             60,
@@ -236,10 +237,12 @@
             0,
             0});
             this.numericUpDownCantidadLosa.Name = "numericUpDownCantidadLosa";
+            this.numericUpDownCantidadLosa.ReadOnly = true;
             this.numericUpDownCantidadLosa.Size = new System.Drawing.Size(52, 20);
             this.numericUpDownCantidadLosa.TabIndex = 0;
+            this.numericUpDownCantidadLosa.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.numericUpDownCantidadLosa.Value = new decimal(new int[] {
-            35,
+            1,
             0,
             0,
             0});

@@ -45,9 +45,9 @@ namespace DiseñoCalcLosa
                 l.Nombre = "L" + (x + 1);
                 aLosas.Add(l);
             }
-            numericUpDownCantidadLosa.Value = 1;
-            
-            
+            //numericUpDownCantidadLosa.Value = 1;
+            dataGridView1.Rows.Add(1);
+            dataGridView1.Rows[dataGridView1.Rows.Count - 1].Cells[0].Value = "L-1";
 
         }
         
@@ -418,7 +418,7 @@ namespace DiseñoCalcLosa
 
         private void numericUpDown1_ValueChanged(object sender, EventArgs e)
         {
-            cmbLosas.Items.Clear();
+            /*cmbLosas.Items.Clear();
             dataGridView1.Rows.Clear();
             //Borra items del combobox
             dataGridView1.Rows.Add(Convert.ToInt32(numericUpDownCantidadLosa.Value));
@@ -431,8 +431,24 @@ namespace DiseñoCalcLosa
             //Inserta los itemes del arreglo al combobox
            // dataGridView1.DataSource = cmbLosas;
 
-            cmbLosas.SelectedIndex = 0;
+            cmbLosas.SelectedIndex = 0;*/
+            int nl= Convert.ToInt32(numericUpDownCantidadLosa.Value);
+            cmbLosas.Items.Clear();
+            for (int x = 0; x <= numericUpDownCantidadLosa.Value - 1; x++)
+            {
+                cmbLosas.Items.Add(aLosas[x]);
+            }
+            if (numericUpDownCantidadLosa.Value > dataGridView1.Rows.Count)
+            { 
+                dataGridView1.Rows.Add(1);
+                dataGridView1.Rows[dataGridView1.Rows.Count - 1].Cells[0].Value = "L-"+ Convert.ToString(nl);
+            }
+            else if (numericUpDownCantidadLosa.Value < dataGridView1.Rows.Count)
+            {    
+                dataGridView1.Rows.RemoveAt(dataGridView1.Rows.Count - 1);
+            }
 
+            cmbLosas.SelectedIndex = 0;
             
         }
 
