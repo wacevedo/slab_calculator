@@ -199,7 +199,7 @@
             this.textBoxPandereta.Name = "textBoxPandereta";
             this.textBoxPandereta.Size = new System.Drawing.Size(119, 31);
             this.textBoxPandereta.TabIndex = 5;
-            this.textBoxPandereta.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxPandereta_KeyPress);
+            this.textBoxPandereta.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.validateTxtInput_KeyPress);
             // 
             // label2
             // 
@@ -250,7 +250,7 @@
             this.textBoxTeminacion.Name = "textBoxTeminacion";
             this.textBoxTeminacion.Size = new System.Drawing.Size(119, 31);
             this.textBoxTeminacion.TabIndex = 3;
-            this.textBoxTeminacion.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxTeminacion_KeyPress);
+            this.textBoxTeminacion.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.validateTxtInput_KeyPress);
             // 
             // textBoxPesoEsp
             // 
@@ -259,7 +259,7 @@
             this.textBoxPesoEsp.Name = "textBoxPesoEsp";
             this.textBoxPesoEsp.Size = new System.Drawing.Size(119, 31);
             this.textBoxPesoEsp.TabIndex = 2;
-            this.textBoxPesoEsp.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxPesoEsp_KeyPress);
+            this.textBoxPesoEsp.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.validateTxtInput_KeyPress);
             // 
             // comboBoxTipoLosa
             // 

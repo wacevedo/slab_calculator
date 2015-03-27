@@ -29,92 +29,92 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.TreeNode treeNode142 = new System.Windows.Forms.TreeNode("Balcones (1), escaleras (1,2)");
+            System.Windows.Forms.TreeNode treeNode1 = new System.Windows.Forms.TreeNode("Balcones (1), escaleras (1,2)");
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CuantificaciondeCargasForm));
-            System.Windows.Forms.TreeNode treeNode143 = new System.Windows.Forms.TreeNode("Otras areas");
-            System.Windows.Forms.TreeNode treeNode144 = new System.Windows.Forms.TreeNode("Residencias y edificios de apartamentos", new System.Windows.Forms.TreeNode[] {
-            treeNode142,
-            treeNode143});
-            System.Windows.Forms.TreeNode treeNode145 = new System.Windows.Forms.TreeNode("Pasillos, vesitibulos, balcones y escaleras (1,2) y otras areas de uso publico");
-            System.Windows.Forms.TreeNode treeNode146 = new System.Windows.Forms.TreeNode("Dormitorios y areas de uso privado");
-            System.Windows.Forms.TreeNode treeNode147 = new System.Windows.Forms.TreeNode("Hoteles", new System.Windows.Forms.TreeNode[] {
-            treeNode145,
-            treeNode146});
-            System.Windows.Forms.TreeNode treeNode148 = new System.Windows.Forms.TreeNode("EDIFICIOS RESIDENCIALES", new System.Windows.Forms.TreeNode[] {
-            treeNode144,
-            treeNode147});
-            System.Windows.Forms.TreeNode treeNode149 = new System.Windows.Forms.TreeNode("Tiendas (Ir a edificios para almacenaje)");
-            System.Windows.Forms.TreeNode treeNode150 = new System.Windows.Forms.TreeNode("Bares y restaurantes");
-            System.Windows.Forms.TreeNode treeNode151 = new System.Windows.Forms.TreeNode("EDIFICIOS PARA COMERCIOS", new System.Windows.Forms.TreeNode[] {
-            treeNode149,
-            treeNode150});
-            System.Windows.Forms.TreeNode treeNode152 = new System.Windows.Forms.TreeNode("Pasillos, salas, escaleras y balcones (1,2)");
-            System.Windows.Forms.TreeNode treeNode153 = new System.Windows.Forms.TreeNode("Aulas");
-            System.Windows.Forms.TreeNode treeNode154 = new System.Windows.Forms.TreeNode("Escuelas", new System.Windows.Forms.TreeNode[] {
-            treeNode152,
-            treeNode153});
-            System.Windows.Forms.TreeNode treeNode155 = new System.Windows.Forms.TreeNode("Pasillos, espacios para el publico, salas de operaciones, escaleras y balcones");
-            System.Windows.Forms.TreeNode treeNode156 = new System.Windows.Forms.TreeNode("Cuartos de Pacientes");
-            System.Windows.Forms.TreeNode treeNode157 = new System.Windows.Forms.TreeNode("Hospitales", new System.Windows.Forms.TreeNode[] {
-            treeNode155,
-            treeNode156});
-            System.Windows.Forms.TreeNode treeNode158 = new System.Windows.Forms.TreeNode("Salas de lectura");
-            System.Windows.Forms.TreeNode treeNode159 = new System.Windows.Forms.TreeNode("Estanterias");
-            System.Windows.Forms.TreeNode treeNode160 = new System.Windows.Forms.TreeNode("Bibliotecas", new System.Windows.Forms.TreeNode[] {
-            treeNode158,
-            treeNode159});
-            System.Windows.Forms.TreeNode treeNode161 = new System.Windows.Forms.TreeNode("EDIFICIOS INSTITUCIONALES", new System.Windows.Forms.TreeNode[] {
-            treeNode154,
-            treeNode157,
-            treeNode160});
-            System.Windows.Forms.TreeNode treeNode162 = new System.Windows.Forms.TreeNode("Pasillos y escaleras (2)");
-            System.Windows.Forms.TreeNode treeNode163 = new System.Windows.Forms.TreeNode("Oficinas");
-            System.Windows.Forms.TreeNode treeNode164 = new System.Windows.Forms.TreeNode("EDIFICIOS DE OFICINA", new System.Windows.Forms.TreeNode[] {
-            treeNode162,
-            treeNode163});
-            System.Windows.Forms.TreeNode treeNode165 = new System.Windows.Forms.TreeNode("Industrias ligeras (3)");
-            System.Windows.Forms.TreeNode treeNode166 = new System.Windows.Forms.TreeNode("Industrias semi-ligeras (3)");
-            System.Windows.Forms.TreeNode treeNode167 = new System.Windows.Forms.TreeNode("Industrias pesadas (3)");
-            System.Windows.Forms.TreeNode treeNode168 = new System.Windows.Forms.TreeNode("EDIFICIOS INDUSTRIALES", new System.Windows.Forms.TreeNode[] {
-            treeNode165,
-            treeNode166,
-            treeNode167});
-            System.Windows.Forms.TreeNode treeNode169 = new System.Windows.Forms.TreeNode("Sitios de reunion con asientos fijos individuales");
-            System.Windows.Forms.TreeNode treeNode170 = new System.Windows.Forms.TreeNode("Sitios de reunion con asientos fijos, moviles o asientos fijos colectivos");
-            System.Windows.Forms.TreeNode treeNode171 = new System.Windows.Forms.TreeNode("Salones de baile");
-            System.Windows.Forms.TreeNode treeNode172 = new System.Windows.Forms.TreeNode("Pasillos, salas de descanso, vestibulos y escaleras (3)");
-            System.Windows.Forms.TreeNode treeNode173 = new System.Windows.Forms.TreeNode("Sitios de reunion", new System.Windows.Forms.TreeNode[] {
-            treeNode169,
-            treeNode170,
-            treeNode171,
-            treeNode172});
-            System.Windows.Forms.TreeNode treeNode174 = new System.Windows.Forms.TreeNode("Gimnasios");
-            System.Windows.Forms.TreeNode treeNode175 = new System.Windows.Forms.TreeNode("EDIFICIOS PUBLICOS", new System.Windows.Forms.TreeNode[] {
-            treeNode173,
-            treeNode174});
-            System.Windows.Forms.TreeNode treeNode176 = new System.Windows.Forms.TreeNode("Almacenamiento ligero (3)");
-            System.Windows.Forms.TreeNode treeNode177 = new System.Windows.Forms.TreeNode("Almacenamiento semi-ligero (3)");
-            System.Windows.Forms.TreeNode treeNode178 = new System.Windows.Forms.TreeNode("Almacenamiento pesado (3)");
-            System.Windows.Forms.TreeNode treeNode179 = new System.Windows.Forms.TreeNode("Almacenamiento General", new System.Windows.Forms.TreeNode[] {
-            treeNode176,
-            treeNode177,
-            treeNode178});
-            System.Windows.Forms.TreeNode treeNode180 = new System.Windows.Forms.TreeNode("Para automoviles (4)");
-            System.Windows.Forms.TreeNode treeNode181 = new System.Windows.Forms.TreeNode("Para vehiculos en general (5)");
-            System.Windows.Forms.TreeNode treeNode182 = new System.Windows.Forms.TreeNode("Garajes", new System.Windows.Forms.TreeNode[] {
-            treeNode180,
-            treeNode181});
-            System.Windows.Forms.TreeNode treeNode183 = new System.Windows.Forms.TreeNode("EDIFICIOS PARA ALMACENAJE", new System.Windows.Forms.TreeNode[] {
-            treeNode179,
-            treeNode182});
-            System.Windows.Forms.TreeNode treeNode184 = new System.Windows.Forms.TreeNode("ACERAS");
-            System.Windows.Forms.TreeNode treeNode185 = new System.Windows.Forms.TreeNode("Planos o con inclinacion de 10 (5 43\' )");
-            System.Windows.Forms.TreeNode treeNode186 = new System.Windows.Forms.TreeNode("Con inclinacion de 10 a 20 (5 43\' a 11 26\')");
-            System.Windows.Forms.TreeNode treeNode187 = new System.Windows.Forms.TreeNode("Con inclinacion mayor de 20 (> 11 26\')");
-            System.Windows.Forms.TreeNode treeNode188 = new System.Windows.Forms.TreeNode("TECHO", new System.Windows.Forms.TreeNode[] {
-            treeNode185,
-            treeNode186,
-            treeNode187});
+            System.Windows.Forms.TreeNode treeNode2 = new System.Windows.Forms.TreeNode("Otras areas");
+            System.Windows.Forms.TreeNode treeNode3 = new System.Windows.Forms.TreeNode("Residencias y edificios de apartamentos", new System.Windows.Forms.TreeNode[] {
+            treeNode1,
+            treeNode2});
+            System.Windows.Forms.TreeNode treeNode4 = new System.Windows.Forms.TreeNode("Pasillos, vesitibulos, balcones y escaleras (1,2) y otras areas de uso publico");
+            System.Windows.Forms.TreeNode treeNode5 = new System.Windows.Forms.TreeNode("Dormitorios y areas de uso privado");
+            System.Windows.Forms.TreeNode treeNode6 = new System.Windows.Forms.TreeNode("Hoteles", new System.Windows.Forms.TreeNode[] {
+            treeNode4,
+            treeNode5});
+            System.Windows.Forms.TreeNode treeNode7 = new System.Windows.Forms.TreeNode("EDIFICIOS RESIDENCIALES", new System.Windows.Forms.TreeNode[] {
+            treeNode3,
+            treeNode6});
+            System.Windows.Forms.TreeNode treeNode8 = new System.Windows.Forms.TreeNode("Tiendas (Ir a edificios para almacenaje)");
+            System.Windows.Forms.TreeNode treeNode9 = new System.Windows.Forms.TreeNode("Bares y restaurantes");
+            System.Windows.Forms.TreeNode treeNode10 = new System.Windows.Forms.TreeNode("EDIFICIOS PARA COMERCIOS", new System.Windows.Forms.TreeNode[] {
+            treeNode8,
+            treeNode9});
+            System.Windows.Forms.TreeNode treeNode11 = new System.Windows.Forms.TreeNode("Pasillos, salas, escaleras y balcones (1,2)");
+            System.Windows.Forms.TreeNode treeNode12 = new System.Windows.Forms.TreeNode("Aulas");
+            System.Windows.Forms.TreeNode treeNode13 = new System.Windows.Forms.TreeNode("Escuelas", new System.Windows.Forms.TreeNode[] {
+            treeNode11,
+            treeNode12});
+            System.Windows.Forms.TreeNode treeNode14 = new System.Windows.Forms.TreeNode("Pasillos, espacios para el publico, salas de operaciones, escaleras y balcones");
+            System.Windows.Forms.TreeNode treeNode15 = new System.Windows.Forms.TreeNode("Cuartos de Pacientes");
+            System.Windows.Forms.TreeNode treeNode16 = new System.Windows.Forms.TreeNode("Hospitales", new System.Windows.Forms.TreeNode[] {
+            treeNode14,
+            treeNode15});
+            System.Windows.Forms.TreeNode treeNode17 = new System.Windows.Forms.TreeNode("Salas de lectura");
+            System.Windows.Forms.TreeNode treeNode18 = new System.Windows.Forms.TreeNode("Estanterias");
+            System.Windows.Forms.TreeNode treeNode19 = new System.Windows.Forms.TreeNode("Bibliotecas", new System.Windows.Forms.TreeNode[] {
+            treeNode17,
+            treeNode18});
+            System.Windows.Forms.TreeNode treeNode20 = new System.Windows.Forms.TreeNode("EDIFICIOS INSTITUCIONALES", new System.Windows.Forms.TreeNode[] {
+            treeNode13,
+            treeNode16,
+            treeNode19});
+            System.Windows.Forms.TreeNode treeNode21 = new System.Windows.Forms.TreeNode("Pasillos y escaleras (2)");
+            System.Windows.Forms.TreeNode treeNode22 = new System.Windows.Forms.TreeNode("Oficinas");
+            System.Windows.Forms.TreeNode treeNode23 = new System.Windows.Forms.TreeNode("EDIFICIOS DE OFICINA", new System.Windows.Forms.TreeNode[] {
+            treeNode21,
+            treeNode22});
+            System.Windows.Forms.TreeNode treeNode24 = new System.Windows.Forms.TreeNode("Industrias ligeras (3)");
+            System.Windows.Forms.TreeNode treeNode25 = new System.Windows.Forms.TreeNode("Industrias semi-ligeras (3)");
+            System.Windows.Forms.TreeNode treeNode26 = new System.Windows.Forms.TreeNode("Industrias pesadas (3)");
+            System.Windows.Forms.TreeNode treeNode27 = new System.Windows.Forms.TreeNode("EDIFICIOS INDUSTRIALES", new System.Windows.Forms.TreeNode[] {
+            treeNode24,
+            treeNode25,
+            treeNode26});
+            System.Windows.Forms.TreeNode treeNode28 = new System.Windows.Forms.TreeNode("Sitios de reunion con asientos fijos individuales");
+            System.Windows.Forms.TreeNode treeNode29 = new System.Windows.Forms.TreeNode("Sitios de reunion con asientos fijos, moviles o asientos fijos colectivos");
+            System.Windows.Forms.TreeNode treeNode30 = new System.Windows.Forms.TreeNode("Salones de baile");
+            System.Windows.Forms.TreeNode treeNode31 = new System.Windows.Forms.TreeNode("Pasillos, salas de descanso, vestibulos y escaleras (3)");
+            System.Windows.Forms.TreeNode treeNode32 = new System.Windows.Forms.TreeNode("Sitios de reunion", new System.Windows.Forms.TreeNode[] {
+            treeNode28,
+            treeNode29,
+            treeNode30,
+            treeNode31});
+            System.Windows.Forms.TreeNode treeNode33 = new System.Windows.Forms.TreeNode("Gimnasios");
+            System.Windows.Forms.TreeNode treeNode34 = new System.Windows.Forms.TreeNode("EDIFICIOS PUBLICOS", new System.Windows.Forms.TreeNode[] {
+            treeNode32,
+            treeNode33});
+            System.Windows.Forms.TreeNode treeNode35 = new System.Windows.Forms.TreeNode("Almacenamiento ligero (3)");
+            System.Windows.Forms.TreeNode treeNode36 = new System.Windows.Forms.TreeNode("Almacenamiento semi-ligero (3)");
+            System.Windows.Forms.TreeNode treeNode37 = new System.Windows.Forms.TreeNode("Almacenamiento pesado (3)");
+            System.Windows.Forms.TreeNode treeNode38 = new System.Windows.Forms.TreeNode("Almacenamiento General", new System.Windows.Forms.TreeNode[] {
+            treeNode35,
+            treeNode36,
+            treeNode37});
+            System.Windows.Forms.TreeNode treeNode39 = new System.Windows.Forms.TreeNode("Para automoviles (4)");
+            System.Windows.Forms.TreeNode treeNode40 = new System.Windows.Forms.TreeNode("Para vehiculos en general (5)");
+            System.Windows.Forms.TreeNode treeNode41 = new System.Windows.Forms.TreeNode("Garajes", new System.Windows.Forms.TreeNode[] {
+            treeNode39,
+            treeNode40});
+            System.Windows.Forms.TreeNode treeNode42 = new System.Windows.Forms.TreeNode("EDIFICIOS PARA ALMACENAJE", new System.Windows.Forms.TreeNode[] {
+            treeNode38,
+            treeNode41});
+            System.Windows.Forms.TreeNode treeNode43 = new System.Windows.Forms.TreeNode("ACERAS");
+            System.Windows.Forms.TreeNode treeNode44 = new System.Windows.Forms.TreeNode("Planos o con inclinacion de 10 (5 43\' )");
+            System.Windows.Forms.TreeNode treeNode45 = new System.Windows.Forms.TreeNode("Con inclinacion de 10 a 20 (5 43\' a 11 26\')");
+            System.Windows.Forms.TreeNode treeNode46 = new System.Windows.Forms.TreeNode("Con inclinacion mayor de 20 (> 11 26\')");
+            System.Windows.Forms.TreeNode treeNode47 = new System.Windows.Forms.TreeNode("TECHO", new System.Windows.Forms.TreeNode[] {
+            treeNode44,
+            treeNode45,
+            treeNode46});
             this.rectangleMain = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
             this.rectangleTitulo = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
             this.shapeContainer1 = new Microsoft.VisualBasic.PowerPacks.ShapeContainer();
@@ -402,7 +402,7 @@
             this.txtInclinacion.Size = new System.Drawing.Size(100, 20);
             this.txtInclinacion.TabIndex = 36;
             this.toolTip1.SetToolTip(this.txtInclinacion, "Inserte aqui el H inclinacion (Del para borrar)");
-            this.txtInclinacion.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtInclinacion_KeyPress);
+            this.txtInclinacion.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.validateTxtInput_KeyPress);
             // 
             // txtCargaAdicional
             // 
@@ -411,7 +411,7 @@
             this.txtCargaAdicional.Size = new System.Drawing.Size(100, 20);
             this.txtCargaAdicional.TabIndex = 37;
             this.toolTip1.SetToolTip(this.txtCargaAdicional, "Inserte aqui la magnitu de carga adicional (Del para borrar)");
-            this.txtCargaAdicional.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtCargaAdicional_KeyPress);
+            this.txtCargaAdicional.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.validateTxtInput_KeyPress);
             // 
             // label3
             // 
@@ -500,164 +500,164 @@
             this.treeViewCargasVivas.BackColor = System.Drawing.Color.LightSeaGreen;
             this.treeViewCargasVivas.Location = new System.Drawing.Point(520, 101);
             this.treeViewCargasVivas.Name = "treeViewCargasVivas";
-            treeNode142.Name = "balco_escal";
-            treeNode142.Tag = "400-0.15";
-            treeNode142.Text = "Balcones (1), escaleras (1,2)";
-            treeNode142.ToolTipText = resources.GetString("treeNode142.ToolTipText");
-            treeNode143.Name = "otras_area";
-            treeNode143.Tag = "200-0.15";
-            treeNode143.Text = "Otras areas";
-            treeNode144.Name = "res_efif";
-            treeNode144.Text = "Residencias y edificios de apartamentos";
-            treeNode145.Name = "pasillos_ves";
-            treeNode145.Tag = "500-0.20";
-            treeNode145.Text = "Pasillos, vesitibulos, balcones y escaleras (1,2) y otras areas de uso publico";
-            treeNode145.ToolTipText = resources.GetString("treeNode145.ToolTipText");
-            treeNode146.Name = "Node14";
-            treeNode146.Tag = "200-0.15";
-            treeNode146.Text = "Dormitorios y areas de uso privado";
-            treeNode147.Name = "hoteles";
-            treeNode147.Text = "Hoteles";
-            treeNode148.Name = "Node0";
-            treeNode148.Text = "EDIFICIOS RESIDENCIALES";
-            treeNode149.Name = "tiendas";
-            treeNode149.Tag = "500-0.20";
-            treeNode149.Text = "Tiendas (Ir a edificios para almacenaje)";
-            treeNode150.Name = "bares";
-            treeNode150.Tag = "500-0.20";
-            treeNode150.Text = "Bares y restaurantes";
-            treeNode151.Name = "Node1";
-            treeNode151.Text = "EDIFICIOS PARA COMERCIOS";
-            treeNode152.Name = "Node20";
-            treeNode152.Tag = "500-0.25";
-            treeNode152.Text = "Pasillos, salas, escaleras y balcones (1,2)";
-            treeNode152.ToolTipText = resources.GetString("treeNode152.ToolTipText");
-            treeNode153.Name = "aulas";
-            treeNode153.Tag = "300-0.25";
-            treeNode153.Text = "Aulas";
-            treeNode154.Name = "escuelas";
-            treeNode154.Text = "Escuelas";
-            treeNode155.Name = "Node22";
-            treeNode155.Tag = "500-0.25";
-            treeNode155.Text = "Pasillos, espacios para el publico, salas de operaciones, escaleras y balcones";
-            treeNode156.Name = "cuartospacientes";
-            treeNode156.Tag = "200-0.30";
-            treeNode156.Text = "Cuartos de Pacientes";
-            treeNode157.Name = "hospitales";
-            treeNode157.Text = "Hospitales";
-            treeNode158.Name = "salaslectura";
-            treeNode158.Tag = "300-0.25";
-            treeNode158.Text = "Salas de lectura";
-            treeNode159.Name = "estanterias";
-            treeNode159.Tag = "600-0.25";
-            treeNode159.Text = "Estanterias";
-            treeNode160.Name = "biblioteca";
-            treeNode160.Text = "Bibliotecas";
-            treeNode161.Name = "Node2";
-            treeNode161.Text = "EDIFICIOS INSTITUCIONALES";
-            treeNode162.Name = "pasillos_escal";
-            treeNode162.Tag = "500-0.20";
-            treeNode162.Text = "Pasillos y escaleras (2)";
-            treeNode162.ToolTipText = "2-En escaleras con escalones aislados debe compararse los esfuezos para una carga" +
+            treeNode1.Name = "balco_escal";
+            treeNode1.Tag = "400-0.15";
+            treeNode1.Text = "Balcones (1), escaleras (1,2)";
+            treeNode1.ToolTipText = resources.GetString("treeNode1.ToolTipText");
+            treeNode2.Name = "otras_area";
+            treeNode2.Tag = "200-0.15";
+            treeNode2.Text = "Otras areas";
+            treeNode3.Name = "res_efif";
+            treeNode3.Text = "Residencias y edificios de apartamentos";
+            treeNode4.Name = "pasillos_ves";
+            treeNode4.Tag = "500-0.20";
+            treeNode4.Text = "Pasillos, vesitibulos, balcones y escaleras (1,2) y otras areas de uso publico";
+            treeNode4.ToolTipText = resources.GetString("treeNode4.ToolTipText");
+            treeNode5.Name = "Node14";
+            treeNode5.Tag = "200-0.15";
+            treeNode5.Text = "Dormitorios y areas de uso privado";
+            treeNode6.Name = "hoteles";
+            treeNode6.Text = "Hoteles";
+            treeNode7.Name = "Node0";
+            treeNode7.Text = "EDIFICIOS RESIDENCIALES";
+            treeNode8.Name = "tiendas";
+            treeNode8.Tag = "500-0.20";
+            treeNode8.Text = "Tiendas (Ir a edificios para almacenaje)";
+            treeNode9.Name = "bares";
+            treeNode9.Tag = "500-0.20";
+            treeNode9.Text = "Bares y restaurantes";
+            treeNode10.Name = "Node1";
+            treeNode10.Text = "EDIFICIOS PARA COMERCIOS";
+            treeNode11.Name = "Node20";
+            treeNode11.Tag = "500-0.25";
+            treeNode11.Text = "Pasillos, salas, escaleras y balcones (1,2)";
+            treeNode11.ToolTipText = resources.GetString("treeNode11.ToolTipText");
+            treeNode12.Name = "aulas";
+            treeNode12.Tag = "300-0.25";
+            treeNode12.Text = "Aulas";
+            treeNode13.Name = "escuelas";
+            treeNode13.Text = "Escuelas";
+            treeNode14.Name = "Node22";
+            treeNode14.Tag = "500-0.25";
+            treeNode14.Text = "Pasillos, espacios para el publico, salas de operaciones, escaleras y balcones";
+            treeNode15.Name = "cuartospacientes";
+            treeNode15.Tag = "200-0.30";
+            treeNode15.Text = "Cuartos de Pacientes";
+            treeNode16.Name = "hospitales";
+            treeNode16.Text = "Hospitales";
+            treeNode17.Name = "salaslectura";
+            treeNode17.Tag = "300-0.25";
+            treeNode17.Text = "Salas de lectura";
+            treeNode18.Name = "estanterias";
+            treeNode18.Tag = "600-0.25";
+            treeNode18.Text = "Estanterias";
+            treeNode19.Name = "biblioteca";
+            treeNode19.Text = "Bibliotecas";
+            treeNode20.Name = "Node2";
+            treeNode20.Text = "EDIFICIOS INSTITUCIONALES";
+            treeNode21.Name = "pasillos_escal";
+            treeNode21.Tag = "500-0.20";
+            treeNode21.Text = "Pasillos y escaleras (2)";
+            treeNode21.ToolTipText = "2-En escaleras con escalones aislados debe compararse los esfuezos para una carga" +
                 " concentrada en la posicion mas desfavorable. En residencias: 200kg";
-            treeNode163.Name = "oficinas";
-            treeNode163.Tag = "250-0.20";
-            treeNode163.Text = "Oficinas";
-            treeNode164.Name = "Node3";
-            treeNode164.Text = "EDIFICIOS DE OFICINA";
-            treeNode165.Name = "industrias_ligeras";
-            treeNode165.Tag = "400-0.25";
-            treeNode165.Text = "Industrias ligeras (3)";
-            treeNode165.ToolTipText = "3-Valores indicativos solamente; podran utilizarse otros valores presentando un a" +
+            treeNode22.Name = "oficinas";
+            treeNode22.Tag = "250-0.20";
+            treeNode22.Text = "Oficinas";
+            treeNode23.Name = "Node3";
+            treeNode23.Text = "EDIFICIOS DE OFICINA";
+            treeNode24.Name = "industrias_ligeras";
+            treeNode24.Tag = "400-0.25";
+            treeNode24.Text = "Industrias ligeras (3)";
+            treeNode24.ToolTipText = "3-Valores indicativos solamente; podran utilizarse otros valores presentando un a" +
                 "nalisis justificativo, siempre que dichos valores no sean menores de 400kg/mt²";
-            treeNode166.Name = "Industrias_semiligeras";
-            treeNode166.Tag = "600-0.25";
-            treeNode166.Text = "Industrias semi-ligeras (3)";
-            treeNode166.ToolTipText = "3-Valores indicativos solamente; podran utilizarse otros valores presentando un a" +
+            treeNode25.Name = "Industrias_semiligeras";
+            treeNode25.Tag = "600-0.25";
+            treeNode25.Text = "Industrias semi-ligeras (3)";
+            treeNode25.ToolTipText = "3-Valores indicativos solamente; podran utilizarse otros valores presentando un a" +
                 "nalisis justificativo, siempre que dichos valores no sean menores de 400kg/mt²";
-            treeNode167.Name = "Industrias_pesado";
-            treeNode167.Tag = "800-0.25";
-            treeNode167.Text = "Industrias pesadas (3)";
-            treeNode167.ToolTipText = "3-Valores indicativos solamente; podran utilizarse otros valores presentando un a" +
+            treeNode26.Name = "Industrias_pesado";
+            treeNode26.Tag = "800-0.25";
+            treeNode26.Text = "Industrias pesadas (3)";
+            treeNode26.ToolTipText = "3-Valores indicativos solamente; podran utilizarse otros valores presentando un a" +
                 "nalisis justificativo, siempre que dichos valores no sean menores de 400kg/mt²";
-            treeNode168.Name = "Node4";
-            treeNode168.Text = "EDIFICIOS INDUSTRIALES";
-            treeNode169.Name = "sitioReu1";
-            treeNode169.Tag = "300-0.25";
-            treeNode169.Text = "Sitios de reunion con asientos fijos individuales";
-            treeNode170.Name = "sitioReu2";
-            treeNode170.Tag = "500-0.25";
-            treeNode170.Text = "Sitios de reunion con asientos fijos, moviles o asientos fijos colectivos";
-            treeNode171.Name = "salones_baile";
-            treeNode171.Tag = "600-0.25";
-            treeNode171.Text = "Salones de baile";
-            treeNode172.Name = "Node36";
-            treeNode172.Tag = "500-0.25";
-            treeNode172.Text = "Pasillos, salas de descanso, vestibulos y escaleras (3)";
-            treeNode172.ToolTipText = "3-Valores indicativos solamente; podran utilizarse otros valores presentando un a" +
+            treeNode27.Name = "Node4";
+            treeNode27.Text = "EDIFICIOS INDUSTRIALES";
+            treeNode28.Name = "sitioReu1";
+            treeNode28.Tag = "300-0.25";
+            treeNode28.Text = "Sitios de reunion con asientos fijos individuales";
+            treeNode29.Name = "sitioReu2";
+            treeNode29.Tag = "500-0.25";
+            treeNode29.Text = "Sitios de reunion con asientos fijos, moviles o asientos fijos colectivos";
+            treeNode30.Name = "salones_baile";
+            treeNode30.Tag = "600-0.25";
+            treeNode30.Text = "Salones de baile";
+            treeNode31.Name = "Node36";
+            treeNode31.Tag = "500-0.25";
+            treeNode31.Text = "Pasillos, salas de descanso, vestibulos y escaleras (3)";
+            treeNode31.ToolTipText = "3-Valores indicativos solamente; podran utilizarse otros valores presentando un a" +
                 "nalisis justificativo, siempre que dichos valores no sean menores de 400kg/mt²";
-            treeNode173.Name = "sitios_de_reunion";
-            treeNode173.Text = "Sitios de reunion";
-            treeNode174.Name = "gimnasios";
-            treeNode174.Tag = "500-0.25";
-            treeNode174.Text = "Gimnasios";
-            treeNode175.Name = "Node5";
-            treeNode175.Text = "EDIFICIOS PUBLICOS";
-            treeNode176.Name = "alm_lig";
-            treeNode176.Tag = "400-0.25";
-            treeNode176.Text = "Almacenamiento ligero (3)";
-            treeNode176.ToolTipText = "3-Valores indicativos solamente; podran utilizarse otros valores presentando un a" +
+            treeNode32.Name = "sitios_de_reunion";
+            treeNode32.Text = "Sitios de reunion";
+            treeNode33.Name = "gimnasios";
+            treeNode33.Tag = "500-0.25";
+            treeNode33.Text = "Gimnasios";
+            treeNode34.Name = "Node5";
+            treeNode34.Text = "EDIFICIOS PUBLICOS";
+            treeNode35.Name = "alm_lig";
+            treeNode35.Tag = "400-0.25";
+            treeNode35.Text = "Almacenamiento ligero (3)";
+            treeNode35.ToolTipText = "3-Valores indicativos solamente; podran utilizarse otros valores presentando un a" +
                 "nalisis justificativo, siempre que dichos valores no sean menores de 400kg/mt²";
-            treeNode177.Name = "alm_semi";
-            treeNode177.Tag = "600-0.25";
-            treeNode177.Text = "Almacenamiento semi-ligero (3)";
-            treeNode177.ToolTipText = "3-Valores indicativos solamente; podran utilizarse otros valores presentando un a" +
+            treeNode36.Name = "alm_semi";
+            treeNode36.Tag = "600-0.25";
+            treeNode36.Text = "Almacenamiento semi-ligero (3)";
+            treeNode36.ToolTipText = "3-Valores indicativos solamente; podran utilizarse otros valores presentando un a" +
                 "nalisis justificativo, siempre que dichos valores no sean menores de 400kg/mt²";
-            treeNode178.Name = "alm_pes";
-            treeNode178.Tag = "800-0.25";
-            treeNode178.Text = "Almacenamiento pesado (3)";
-            treeNode178.ToolTipText = "3-Valores indicativos solamente; podran utilizarse otros valores presentando un a" +
+            treeNode37.Name = "alm_pes";
+            treeNode37.Tag = "800-0.25";
+            treeNode37.Text = "Almacenamiento pesado (3)";
+            treeNode37.ToolTipText = "3-Valores indicativos solamente; podran utilizarse otros valores presentando un a" +
                 "nalisis justificativo, siempre que dichos valores no sean menores de 400kg/mt²";
-            treeNode179.Name = "alm_gen";
-            treeNode179.Text = "Almacenamiento General";
-            treeNode180.Name = "pAuto";
-            treeNode180.Tag = "400-0.25";
-            treeNode180.Text = "Para automoviles (4)";
-            treeNode180.ToolTipText = "4-Esta carga podra reducirse a 250kg/mt si se comparan los esfuerzos con los obte" +
+            treeNode38.Name = "alm_gen";
+            treeNode38.Text = "Almacenamiento General";
+            treeNode39.Name = "pAuto";
+            treeNode39.Tag = "400-0.25";
+            treeNode39.Text = "Para automoviles (4)";
+            treeNode39.ToolTipText = "4-Esta carga podra reducirse a 250kg/mt si se comparan los esfuerzos con los obte" +
                 "nidos para una carga de rueda concentrada de 1000kg en la posicion mas desfavora" +
                 "ble";
-            treeNode181.Name = "pVehiculos";
-            treeNode181.Tag = "900-0.25";
-            treeNode181.Text = "Para vehiculos en general (5)";
-            treeNode181.ToolTipText = resources.GetString("treeNode181.ToolTipText");
-            treeNode182.Name = "garajes";
-            treeNode182.Text = "Garajes";
-            treeNode183.Name = "Node6";
-            treeNode183.Text = "EDIFICIOS PARA ALMACENAJE";
-            treeNode184.Name = "aceras";
-            treeNode184.Tag = "1250-0.25";
-            treeNode184.Text = "ACERAS";
-            treeNode185.Name = "planos";
-            treeNode185.Tag = "100-0.10";
-            treeNode185.Text = "Planos o con inclinacion de 10 (5 43\' )";
-            treeNode186.Name = "inclinacion1020";
-            treeNode186.Tag = "70-0.10";
-            treeNode186.Text = "Con inclinacion de 10 a 20 (5 43\' a 11 26\')";
-            treeNode187.Name = "Node49";
-            treeNode187.Tag = "50-0.10";
-            treeNode187.Text = "Con inclinacion mayor de 20 (> 11 26\')";
-            treeNode188.Name = "Node8";
-            treeNode188.Text = "TECHO";
+            treeNode40.Name = "pVehiculos";
+            treeNode40.Tag = "900-0.25";
+            treeNode40.Text = "Para vehiculos en general (5)";
+            treeNode40.ToolTipText = resources.GetString("treeNode40.ToolTipText");
+            treeNode41.Name = "garajes";
+            treeNode41.Text = "Garajes";
+            treeNode42.Name = "Node6";
+            treeNode42.Text = "EDIFICIOS PARA ALMACENAJE";
+            treeNode43.Name = "aceras";
+            treeNode43.Tag = "1250-0.25";
+            treeNode43.Text = "ACERAS";
+            treeNode44.Name = "planos";
+            treeNode44.Tag = "100-0.10";
+            treeNode44.Text = "Planos o con inclinacion de 10 (5 43\' )";
+            treeNode45.Name = "inclinacion1020";
+            treeNode45.Tag = "70-0.10";
+            treeNode45.Text = "Con inclinacion de 10 a 20 (5 43\' a 11 26\')";
+            treeNode46.Name = "Node49";
+            treeNode46.Tag = "50-0.10";
+            treeNode46.Text = "Con inclinacion mayor de 20 (> 11 26\')";
+            treeNode47.Name = "Node8";
+            treeNode47.Text = "TECHO";
             this.treeViewCargasVivas.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode148,
-            treeNode151,
-            treeNode161,
-            treeNode164,
-            treeNode168,
-            treeNode175,
-            treeNode183,
-            treeNode184,
-            treeNode188});
+            treeNode7,
+            treeNode10,
+            treeNode20,
+            treeNode23,
+            treeNode27,
+            treeNode34,
+            treeNode42,
+            treeNode43,
+            treeNode47});
             this.treeViewCargasVivas.Scrollable = false;
             this.treeViewCargasVivas.Size = new System.Drawing.Size(117, 64);
             this.treeViewCargasVivas.TabIndex = 49;

@@ -190,41 +190,22 @@ namespace DiseñoCalcLosa
                 MessageBox.Show("Aun hay cargas sin calcular", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
-
-        private void txtInclinacion_KeyPress(object sender, KeyPressEventArgs e)
+        public static void allowNumber(object sender, KeyPressEventArgs e, char csymbol)
         {
-            char letra = e.KeyChar;
-
-
-            if (letra == 8 && txtInclinacion.Text.IndexOf(".") != -1)
+            if (!char.IsControl(e.KeyChar) && (!char.IsDigit(e.KeyChar)) && (e.KeyChar != csymbol))
             {
                 e.Handled = true;
-                return;
             }
 
-
-            if (!Char.IsDigit(letra) && letra != 8 && letra != 46)
+            if ((e.KeyChar == csymbol) && (sender as TextBox).Text.IndexOf(csymbol) > -1)
             {
                 e.Handled = true;
             }
         }
-
-        private void txtCargaAdicional_KeyPress(object sender, KeyPressEventArgs e)
+        private void validateTxtInput_KeyPress(object sender, KeyPressEventArgs e)
         {
-            char letra = e.KeyChar;
-
-
-            if (letra == 8 && txtCargaAdicional.Text.IndexOf(".") != -1)
-            {
-                e.Handled = true;
-                return;
-            }
-
-
-            if (!Char.IsDigit(letra) && letra != 8 && letra != 46)
-            {
-                e.Handled = true;
-            }
+            allowNumber(sender, e, '.');
         }
+        
     }
 }

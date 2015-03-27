@@ -134,59 +134,23 @@ namespace DiseñoCalcLosa
             GC.WaitForPendingFinalizers();
             GC.Collect();
         }
-
-        private void textBoxPesoEsp_KeyPress(object sender, KeyPressEventArgs e)
+        public static void allowNumber(object sender, KeyPressEventArgs e, char csymbol)
         {
-            char letra = e.KeyChar;
-
-
-            if (letra == 8 && textBoxPesoEsp.Text.IndexOf(".") != -1)
+            if (!char.IsControl(e.KeyChar) && (!char.IsDigit(e.KeyChar)) && (e.KeyChar != csymbol))
             {
                 e.Handled = true;
-                return;
             }
 
-
-            if (!Char.IsDigit(letra) && letra != 8 && letra != 46)
+            if ((e.KeyChar == csymbol) && (sender as TextBox).Text.IndexOf(csymbol) > -1)
             {
                 e.Handled = true;
             }
         }
 
-        private void textBoxTeminacion_KeyPress(object sender, KeyPressEventArgs e)
+        private void validateTxtInput_KeyPress(object sender, KeyPressEventArgs e)
         {
-            char letra = e.KeyChar;
-
-
-            if (letra == 8 && textBoxTeminacion.Text.IndexOf(".") != -1)
-            {
-                e.Handled = true;
-                return;
-            }
-            
-
-            if (!Char.IsDigit(letra) && letra != 8 && letra != 46)
-            {
-                e.Handled = true;
-            }
+            allowNumber(sender, e, '.');
         }
-
-        private void textBoxPandereta_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            char letra = e.KeyChar;
-
-
-            if (letra == 8 && textBoxPandereta.Text.IndexOf(".") != -1)
-            {
-                e.Handled = true;
-                return;
-            }
-
-
-            if (!Char.IsDigit(letra) && letra != 8 && letra != 46)
-            {
-                e.Handled = true;
-            }
-        }
+               
     }
 }

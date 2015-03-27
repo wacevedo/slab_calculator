@@ -655,64 +655,7 @@ namespace DiseñoCalcLosa
             
 
         }
-
-        private void txtLx_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            char letra = e.KeyChar;
-
-            
-            if(letra==8 && txtLx.Text.IndexOf(".")!=-1)
-            {
-                e.Handled = true;
-                return;
-            }
-
-
-            if (!Char.IsDigit(letra) && letra != 8 && letra != 46)
-            {
-                e.Handled = true;
-            }
-        }
-
-        private void txtLy_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            char letra = e.KeyChar;
-            
-
-            if (letra == 8 && txtLy.Text.IndexOf(".") != -1)
-            {
-                e.Handled = true;
-                return;
-            }
-
-
-            if (!Char.IsDigit(letra) && letra != 8 && letra != 46)
-            {
-                e.Handled = true;
-            }
-        }
-
-        private void txtRecublimiento_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            char letra = e.KeyChar;
-
-
-            if (letra == 8 && txtRecublimiento.Text.IndexOf(".") != -1)
-            {
-                e.Handled = true;
-                return;
-            }
-
-
-            if (!Char.IsDigit(letra) && letra != 8 && letra != 46)
-            {
-                e.Handled = true;
-            }
-        }
-
-        private void txtFy_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            char letra = e.KeyChar;
+        /*char letra = e.KeyChar;
 
 
             if (letra == 8 && txtFy.Text.IndexOf(".") != -1)
@@ -725,26 +668,24 @@ namespace DiseñoCalcLosa
             if (!Char.IsDigit(letra) && letra != 8 && letra != 46)
             {
                 e.Handled = true;
+            }*/
+        public static void allowNumber(object sender, KeyPressEventArgs e,char csymbol)
+            {
+                if (!char.IsControl(e.KeyChar) && (!char.IsDigit(e.KeyChar)) && (e.KeyChar != csymbol)) 
+                {
+                    e.Handled = true;
+                }
+                
+                if((e.KeyChar== csymbol)&&(sender as TextBox).Text.IndexOf(csymbol)>-1)
+                {
+                    e.Handled = true;
+                }
             }
-        }
-
-        private void txtFx_KeyPress(object sender, KeyPressEventArgs e)
+        private void validateTxtInput_KeyPress(object sender, KeyPressEventArgs e)
         {
-            char letra = e.KeyChar;
-
-            
-            if (letra == 8 && txtFx.Text.IndexOf(".") != -1)
-            {
-                e.Handled = true;
-                return;
-            }
-
-
-            if (!Char.IsDigit(letra) && letra != 8 && letra != 46)
-            {
-                e.Handled = true;
-            }
+            allowNumber(sender,e,'.');
         }
+               
 
         private void rectangleTitulo_Click(object sender, EventArgs e)
         {

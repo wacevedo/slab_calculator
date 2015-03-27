@@ -211,7 +211,7 @@
             this.txtLy.Size = new System.Drawing.Size(100, 20);
             this.txtLy.TabIndex = 6;
             this.txtLy.TextChanged += new System.EventHandler(this.txtLx_TextChanged);
-            this.txtLy.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtLy_KeyPress);
+            this.txtLy.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.validateTxtInput_KeyPress);
             // 
             // txtLx
             // 
@@ -220,7 +220,7 @@
             this.txtLx.Size = new System.Drawing.Size(100, 20);
             this.txtLx.TabIndex = 5;
             this.txtLx.TextChanged += new System.EventHandler(this.txtLx_TextChanged);
-            this.txtLx.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtLx_KeyPress);
+            this.txtLx.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.validateTxtInput_KeyPress);
             // 
             // numericUpDownCantidadLosa
             // 
@@ -687,7 +687,7 @@
             this.txtFx.Size = new System.Drawing.Size(100, 20);
             this.txtFx.TabIndex = 1;
             this.txtFx.TextChanged += new System.EventHandler(this.txtLy_TextChanged);
-            this.txtFx.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtFx_KeyPress);
+            this.txtFx.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.validateTxtInput_KeyPress);
             // 
             // txtFy
             // 
@@ -696,7 +696,7 @@
             this.txtFy.Size = new System.Drawing.Size(100, 20);
             this.txtFy.TabIndex = 2;
             this.txtFy.TextChanged += new System.EventHandler(this.txtLy_TextChanged);
-            this.txtFy.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtFy_KeyPress);
+            this.txtFy.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.validateTxtInput_KeyPress);
             // 
             // lblRecubrimiento
             // 
@@ -716,7 +716,7 @@
             this.txtRecublimiento.Size = new System.Drawing.Size(100, 20);
             this.txtRecublimiento.TabIndex = 3;
             this.txtRecublimiento.TextChanged += new System.EventHandler(this.txtLy_TextChanged);
-            this.txtRecublimiento.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtRecublimiento_KeyPress);
+            this.txtRecublimiento.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.validateTxtInput_KeyPress);
             // 
             // label4
             // 

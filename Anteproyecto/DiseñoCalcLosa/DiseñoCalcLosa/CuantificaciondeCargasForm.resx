@@ -147,49 +147,19 @@
   <metadata name="rKWuLca.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="losa.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="t.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="Hinclinacion.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="angulo.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="carga2.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="carga.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="Magnitud.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="CargaUltima.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="rKWuLc.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="rKWuLca.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
-  <data name="treeNode142.ToolTipText" xml:space="preserve">
+  <data name="treeNode1.ToolTipText" xml:space="preserve">
     <value>1-Las barandas de los balcones deberan ser diseñadas para resistir una carga horizontal de 75kg/m aplicadasa la parte superios de la baranda; en escaleras:80kg/m -- 2-En escaleras con escalones aislados debe compararse los esfuezos para una carga concentrada en la posicion mas desfavorable. En residencias: 200kg</value>
   </data>
-  <data name="treeNode145.ToolTipText" xml:space="preserve">
+  <data name="treeNode4.ToolTipText" xml:space="preserve">
     <value>1-Las barandas de los balcones deberan ser diseñadas para resistir una carga horizontal de 75kg/m aplicadasa la parte superios de la baranda; en escaleras:80kg/m -- 2-En escaleras con escalones aislados debe compararse los esfuezos para una carga concentrada en la posicion mas desfavorable. En residencias: 200kg</value>
   </data>
-  <data name="treeNode152.ToolTipText" xml:space="preserve">
+  <data name="treeNode11.ToolTipText" xml:space="preserve">
     <value>1-Las barandas de los balcones deberan ser diseñadas para resistir una carga horizontal de 75kg/m aplicadasa la parte superios de la baranda; en escaleras:80kg/m -- 2-En escaleras con escalones aislados debe compararse los esfuezos para una carga concentrada en la posicion mas desfavorable. En residencias: 200kg</value>
   </data>
-  <data name="treeNode181.ToolTipText" xml:space="preserve">
+  <data name="treeNode40.ToolTipText" xml:space="preserve">
     <value>5- Esta carga podra reducirse a 500kg/m si se comparan los esfuerzos con los obtenidos para una carga de rueda concentrada de 3000kg. En la posicion mas desfavorable. Si el camion esta totalmente cargado se usara una carga 6000kg, use 600kg/mt para las vigas que soportan el piso</value>
   </data>
 </root>
