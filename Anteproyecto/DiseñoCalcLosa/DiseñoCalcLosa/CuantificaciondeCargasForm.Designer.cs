@@ -245,6 +245,7 @@
             this.rKWuLca});
             this.dataGridView1.Location = new System.Drawing.Point(22, 174);
             this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.ReadOnly = true;
             this.dataGridView1.Size = new System.Drawing.Size(1016, 299);
             this.dataGridView1.TabIndex = 18;
             // 
@@ -252,54 +253,64 @@
             // 
             this.losa.HeaderText = "Losa";
             this.losa.Name = "losa";
+            this.losa.ReadOnly = true;
             this.losa.Width = 70;
             // 
             // t
             // 
             this.t.HeaderText = "t";
             this.t.Name = "t";
+            this.t.ReadOnly = true;
             this.t.Width = 50;
             // 
             // Hinclinacion
             // 
             this.Hinclinacion.HeaderText = "H Inclinacion (m)";
             this.Hinclinacion.Name = "Hinclinacion";
+            this.Hinclinacion.ReadOnly = true;
             // 
             // angulo
             // 
             this.angulo.HeaderText = "Ø";
             this.angulo.Name = "angulo";
+            this.angulo.ReadOnly = true;
             this.angulo.Width = 50;
             // 
             // carga2
             // 
             this.carga2.HeaderText = "Carga Muerta (to/m²)";
             this.carga2.Name = "carga2";
+            this.carga2.ReadOnly = true;
             // 
             // carga
             // 
             this.carga.HeaderText = "Carga Viva (to/m²)";
             this.carga.Name = "carga";
+            this.carga.ReadOnly = true;
             // 
             // Magnitud
             // 
             this.Magnitud.HeaderText = "Carga adicional (to/m²)";
             this.Magnitud.Name = "Magnitud";
+            this.Magnitud.ReadOnly = true;
             // 
             // CargaUltima
             // 
             this.CargaUltima.HeaderText = "Carga Ultima (to/m²)";
             this.CargaUltima.Name = "CargaUltima";
+            this.CargaUltima.ReadOnly = true;
             // 
             // rKWuLc
             // 
             this.rKWuLc.HeaderText = "Reacción K*Wu*Lc  (to/m)";
             this.rKWuLc.Name = "rKWuLc";
+            this.rKWuLc.ReadOnly = true;
             // 
             // rKWuLca
             // 
             this.rKWuLca.HeaderText = "Reacción K*Wu*Lc*α  (to/m)";
             this.rKWuLca.Name = "rKWuLca";
+            this.rKWuLca.ReadOnly = true;
             // 
             // label1
             // 
@@ -641,10 +652,10 @@
             treeNode44.Tag = "100-0.10";
             treeNode44.Text = "Planos o con inclinacion de 10 (5 43\' )";
             treeNode45.Name = "inclinacion1020";
-            treeNode45.Tag = "70-0.10";
+            treeNode45.Tag = "070-0.10";
             treeNode45.Text = "Con inclinacion de 10 a 20 (5 43\' a 11 26\')";
             treeNode46.Name = "Node49";
-            treeNode46.Tag = "50-0.10";
+            treeNode46.Tag = "050-0.10";
             treeNode46.Text = "Con inclinacion mayor de 20 (> 11 26\')";
             treeNode47.Name = "Node8";
             treeNode47.Text = "TECHO";

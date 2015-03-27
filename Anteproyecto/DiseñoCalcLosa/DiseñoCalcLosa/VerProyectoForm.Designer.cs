@@ -314,6 +314,7 @@
             this.dataGridView1.DefaultCellStyle = dataGridViewCellStyle2;
             this.dataGridView1.Location = new System.Drawing.Point(38, 134);
             this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.ReadOnly = true;
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
             dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -330,6 +331,7 @@
             this.NombreLosa.FillWeight = 70F;
             this.NombreLosa.HeaderText = "Losa #";
             this.NombreLosa.Name = "NombreLosa";
+            this.NombreLosa.ReadOnly = true;
             this.NombreLosa.Width = 70;
             // 
             // Lx
@@ -337,6 +339,7 @@
             this.Lx.FillWeight = 60F;
             this.Lx.HeaderText = "Lx (m)";
             this.Lx.Name = "Lx";
+            this.Lx.ReadOnly = true;
             this.Lx.Width = 60;
             // 
             // Ly
@@ -344,6 +347,7 @@
             this.Ly.FillWeight = 60F;
             this.Ly.HeaderText = "Ly (m)";
             this.Ly.Name = "Ly";
+            this.Ly.ReadOnly = true;
             this.Ly.Width = 60;
             // 
             // LcLl
@@ -351,6 +355,7 @@
             this.LcLl.FillWeight = 50F;
             this.LcLl.HeaderText = "Lc/Ll";
             this.LcLl.Name = "LcLl";
+            this.LcLl.ReadOnly = true;
             this.LcLl.Width = 50;
             // 
             // LosaArmada
@@ -358,28 +363,33 @@
             this.LosaArmada.FillWeight = 120F;
             this.LosaArmada.HeaderText = "Dirección de Losa";
             this.LosaArmada.Name = "LosaArmada";
+            this.LosaArmada.ReadOnly = true;
             this.LosaArmada.Width = 120;
             // 
             // BordesDiscontinuos
             // 
             this.BordesDiscontinuos.HeaderText = "Total Bordes Discontinuos";
             this.BordesDiscontinuos.Name = "BordesDiscontinuos";
+            this.BordesDiscontinuos.ReadOnly = true;
             // 
             // BDX
             // 
             this.BDX.HeaderText = "Bordes Discontinuos en X";
             this.BDX.Name = "BDX";
+            this.BDX.ReadOnly = true;
             // 
             // BDY
             // 
             this.BDY.HeaderText = "Bordes Discontinuos en Y";
             this.BDY.Name = "BDY";
+            this.BDY.ReadOnly = true;
             // 
             // ApLosasDirec
             // 
             this.ApLosasDirec.FillWeight = 150F;
             this.ApLosasDirec.HeaderText = "Apoyos en Losas armadas en una dirección";
             this.ApLosasDirec.Name = "ApLosasDirec";
+            this.ApLosasDirec.ReadOnly = true;
             this.ApLosasDirec.Width = 150;
             // 
             // Tmin
@@ -387,6 +397,7 @@
             this.Tmin.FillWeight = 70F;
             this.Tmin.HeaderText = "Espesores Tmin (cm)";
             this.Tmin.Name = "Tmin";
+            this.Tmin.ReadOnly = true;
             this.Tmin.Width = 70;
             // 
             // p180
@@ -394,6 +405,7 @@
             this.p180.FillWeight = 50F;
             this.p180.HeaderText = "P/180 (cm)";
             this.p180.Name = "p180";
+            this.p180.ReadOnly = true;
             this.p180.Width = 50;
             // 
             // t
@@ -401,6 +413,7 @@
             this.t.FillWeight = 50F;
             this.t.HeaderText = "t (cm)";
             this.t.Name = "t";
+            this.t.ReadOnly = true;
             this.t.Width = 50;
             // 
             // Usar
@@ -408,6 +421,7 @@
             this.Usar.FillWeight = 50F;
             this.Usar.HeaderText = "Usar (cm)";
             this.Usar.Name = "Usar";
+            this.Usar.ReadOnly = true;
             this.Usar.Width = 50;
             // 
             // tabPageCargas
@@ -443,6 +457,7 @@
             this.rKWuLca});
             this.dataGridView2.Location = new System.Drawing.Point(6, 101);
             this.dataGridView2.Name = "dataGridView2";
+            this.dataGridView2.ReadOnly = true;
             this.dataGridView2.Size = new System.Drawing.Size(920, 299);
             this.dataGridView2.TabIndex = 19;
             // 
@@ -450,54 +465,64 @@
             // 
             this.losa.HeaderText = "Losa";
             this.losa.Name = "losa";
+            this.losa.ReadOnly = true;
             this.losa.Width = 70;
             // 
             // dataGridViewTextBoxColumn1
             // 
             this.dataGridViewTextBoxColumn1.HeaderText = "t";
             this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
+            this.dataGridViewTextBoxColumn1.ReadOnly = true;
             this.dataGridViewTextBoxColumn1.Width = 50;
             // 
             // Hinclinacion
             // 
             this.Hinclinacion.HeaderText = "H Inclinacion (m)";
             this.Hinclinacion.Name = "Hinclinacion";
+            this.Hinclinacion.ReadOnly = true;
             // 
             // angulo
             // 
             this.angulo.HeaderText = "Ø";
             this.angulo.Name = "angulo";
+            this.angulo.ReadOnly = true;
             this.angulo.Width = 50;
             // 
             // carga2
             // 
             this.carga2.HeaderText = "Carga Muerta (to/m²)";
             this.carga2.Name = "carga2";
+            this.carga2.ReadOnly = true;
             // 
             // carga
             // 
             this.carga.HeaderText = "Carga Viva (to/m²)";
             this.carga.Name = "carga";
+            this.carga.ReadOnly = true;
             // 
             // Magnitud
             // 
             this.Magnitud.HeaderText = "Carga adicional (to/m²)";
             this.Magnitud.Name = "Magnitud";
+            this.Magnitud.ReadOnly = true;
             // 
             // CargaUltima
             // 
             this.CargaUltima.HeaderText = "Carga Ultima (to/m²)";
             this.CargaUltima.Name = "CargaUltima";
+            this.CargaUltima.ReadOnly = true;
             // 
             // rKWuLc
             // 
             this.rKWuLc.HeaderText = "Reacción K*Wu*Lc  (to/m)";
             this.rKWuLc.Name = "rKWuLc";
+            this.rKWuLc.ReadOnly = true;
             // 
             // rKWuLca
             // 
             this.rKWuLca.HeaderText = "Reacción K*Wu*Lc*α  (to/m)";
             this.rKWuLca.Name = "rKWuLca";
+            this.rKWuLca.ReadOnly = true;
             // 
             // tabPageEspesores
             // 

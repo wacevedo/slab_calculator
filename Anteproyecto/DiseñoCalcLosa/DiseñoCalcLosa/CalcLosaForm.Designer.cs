@@ -108,6 +108,7 @@
             this.lblTitulo = new System.Windows.Forms.Label();
             this.buttonCalcular = new System.Windows.Forms.Button();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
+            this.button2 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownCantidadLosa)).BeginInit();
             this.groupBoxEn2Direc.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -225,7 +226,7 @@
             // numericUpDownCantidadLosa
             // 
             this.numericUpDownCantidadLosa.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.numericUpDownCantidadLosa.Location = new System.Drawing.Point(153, 67);
+            this.numericUpDownCantidadLosa.Location = new System.Drawing.Point(153, 82);
             this.numericUpDownCantidadLosa.Maximum = new decimal(new int[] {
             60,
             0,
@@ -253,7 +254,7 @@
             this.labelCantLosas.AutoSize = true;
             this.labelCantLosas.BackColor = System.Drawing.Color.LightSeaGreen;
             this.labelCantLosas.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelCantLosas.Location = new System.Drawing.Point(9, 67);
+            this.labelCantLosas.Location = new System.Drawing.Point(9, 82);
             this.labelCantLosas.Name = "labelCantLosas";
             this.labelCantLosas.Size = new System.Drawing.Size(142, 20);
             this.labelCantLosas.TabIndex = 14;
@@ -573,6 +574,7 @@
             this.dataGridView1.DefaultCellStyle = dataGridViewCellStyle2;
             this.dataGridView1.Location = new System.Drawing.Point(40, 304);
             this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.ReadOnly = true;
             this.dataGridView1.Size = new System.Drawing.Size(857, 239);
             this.dataGridView1.TabIndex = 22;
             // 
@@ -581,6 +583,7 @@
             this.NombreLosa.FillWeight = 70F;
             this.NombreLosa.HeaderText = "Losa #";
             this.NombreLosa.Name = "NombreLosa";
+            this.NombreLosa.ReadOnly = true;
             this.NombreLosa.Width = 70;
             // 
             // Lx
@@ -588,6 +591,7 @@
             this.Lx.FillWeight = 60F;
             this.Lx.HeaderText = "Lx (m)";
             this.Lx.Name = "Lx";
+            this.Lx.ReadOnly = true;
             this.Lx.Width = 60;
             // 
             // Ly
@@ -595,6 +599,7 @@
             this.Ly.FillWeight = 60F;
             this.Ly.HeaderText = "Ly (m)";
             this.Ly.Name = "Ly";
+            this.Ly.ReadOnly = true;
             this.Ly.Width = 60;
             // 
             // LcLl
@@ -602,6 +607,7 @@
             this.LcLl.FillWeight = 50F;
             this.LcLl.HeaderText = "Lc/Ll";
             this.LcLl.Name = "LcLl";
+            this.LcLl.ReadOnly = true;
             this.LcLl.Width = 50;
             // 
             // LosaArmada
@@ -609,28 +615,33 @@
             this.LosaArmada.FillWeight = 120F;
             this.LosaArmada.HeaderText = "Dirección de Losa";
             this.LosaArmada.Name = "LosaArmada";
+            this.LosaArmada.ReadOnly = true;
             this.LosaArmada.Width = 120;
             // 
             // BordesDiscontinuos
             // 
             this.BordesDiscontinuos.HeaderText = "Total Bordes Discontinuos";
             this.BordesDiscontinuos.Name = "BordesDiscontinuos";
+            this.BordesDiscontinuos.ReadOnly = true;
             // 
             // BDX
             // 
             this.BDX.HeaderText = "Bordes Discontinuos en X";
             this.BDX.Name = "BDX";
+            this.BDX.ReadOnly = true;
             // 
             // BDY
             // 
             this.BDY.HeaderText = "Bordes Discontinuos en Y";
             this.BDY.Name = "BDY";
+            this.BDY.ReadOnly = true;
             // 
             // ApLosasDirec
             // 
             this.ApLosasDirec.FillWeight = 150F;
             this.ApLosasDirec.HeaderText = "Apoyos en Losas armadas en una dirección";
             this.ApLosasDirec.Name = "ApLosasDirec";
+            this.ApLosasDirec.ReadOnly = true;
             this.ApLosasDirec.Width = 150;
             // 
             // Tmin
@@ -638,6 +649,7 @@
             this.Tmin.FillWeight = 70F;
             this.Tmin.HeaderText = "Espesores Tmin (cm)";
             this.Tmin.Name = "Tmin";
+            this.Tmin.ReadOnly = true;
             this.Tmin.Width = 70;
             // 
             // p180
@@ -645,6 +657,7 @@
             this.p180.FillWeight = 50F;
             this.p180.HeaderText = "P/180 (cm)";
             this.p180.Name = "p180";
+            this.p180.ReadOnly = true;
             this.p180.Width = 50;
             // 
             // t
@@ -652,6 +665,7 @@
             this.t.FillWeight = 50F;
             this.t.HeaderText = "t (cm)";
             this.t.Name = "t";
+            this.t.ReadOnly = true;
             this.t.Width = 50;
             // 
             // Usar
@@ -659,6 +673,7 @@
             this.Usar.FillWeight = 50F;
             this.Usar.HeaderText = "Usar (cm)";
             this.Usar.Name = "Usar";
+            this.Usar.ReadOnly = true;
             this.Usar.Width = 50;
             // 
             // label1
@@ -666,7 +681,7 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.LightSeaGreen;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(130, 118);
+            this.label1.Location = new System.Drawing.Point(130, 133);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(21, 20);
             this.label1.TabIndex = 27;
@@ -677,7 +692,7 @@
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.LightSeaGreen;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(126, 94);
+            this.label3.Location = new System.Drawing.Point(126, 109);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(25, 20);
             this.label3.TabIndex = 26;
@@ -685,7 +700,7 @@
             // 
             // txtFx
             // 
-            this.txtFx.Location = new System.Drawing.Point(153, 93);
+            this.txtFx.Location = new System.Drawing.Point(153, 108);
             this.txtFx.Name = "txtFx";
             this.txtFx.Size = new System.Drawing.Size(100, 20);
             this.txtFx.TabIndex = 1;
@@ -694,7 +709,7 @@
             // 
             // txtFy
             // 
-            this.txtFy.Location = new System.Drawing.Point(153, 117);
+            this.txtFy.Location = new System.Drawing.Point(153, 132);
             this.txtFy.Name = "txtFy";
             this.txtFy.Size = new System.Drawing.Size(100, 20);
             this.txtFy.TabIndex = 2;
@@ -706,7 +721,7 @@
             this.lblRecubrimiento.AutoSize = true;
             this.lblRecubrimiento.BackColor = System.Drawing.Color.LightSeaGreen;
             this.lblRecubrimiento.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRecubrimiento.Location = new System.Drawing.Point(39, 144);
+            this.lblRecubrimiento.Location = new System.Drawing.Point(39, 159);
             this.lblRecubrimiento.Name = "lblRecubrimiento";
             this.lblRecubrimiento.Size = new System.Drawing.Size(112, 20);
             this.lblRecubrimiento.TabIndex = 29;
@@ -714,7 +729,7 @@
             // 
             // txtRecublimiento
             // 
-            this.txtRecublimiento.Location = new System.Drawing.Point(153, 143);
+            this.txtRecublimiento.Location = new System.Drawing.Point(153, 158);
             this.txtRecublimiento.Name = "txtRecublimiento";
             this.txtRecublimiento.Size = new System.Drawing.Size(100, 20);
             this.txtRecublimiento.TabIndex = 3;
@@ -726,7 +741,7 @@
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.LightSeaGreen;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(256, 146);
+            this.label4.Location = new System.Drawing.Point(256, 161);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(22, 20);
             this.label4.TabIndex = 31;
@@ -737,7 +752,7 @@
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.LightSeaGreen;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(256, 119);
+            this.label5.Location = new System.Drawing.Point(256, 134);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(56, 20);
             this.label5.TabIndex = 32;
@@ -748,7 +763,7 @@
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.LightSeaGreen;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(256, 95);
+            this.label6.Location = new System.Drawing.Point(256, 110);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(56, 20);
             this.label6.TabIndex = 33;
@@ -919,11 +934,29 @@
             this.buttonCalcular.UseVisualStyleBackColor = false;
             this.buttonCalcular.Click += new System.EventHandler(this.button1_Click);
             // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.LightSeaGreen;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Image = global::DiseñoCalcLosa.Properties.Resources.left_round_26b;
+            this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button2.Location = new System.Drawing.Point(12, 40);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(84, 37);
+            this.button2.TabIndex = 39;
+            this.button2.Text = "Atras";
+            this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.toolTip1.SetToolTip(this.button2, "Ir al menu princial");
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click_1);
+            // 
             // CalcLosaForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(958, 563);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.buttonLimpiar);
             this.Controls.Add(this.groupBoxEn1DirecY);
@@ -1050,6 +1083,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn t;
         private System.Windows.Forms.DataGridViewTextBoxColumn Usar;
         private System.Windows.Forms.ToolTip toolTip1;
+        private System.Windows.Forms.Button button2;
     }
 }
 

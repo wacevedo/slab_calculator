@@ -610,9 +610,14 @@ namespace DiseñoCalcLosa
 
         private void button2_Click(object sender, EventArgs e)
         {
-            //dataGridView1.Rows.Clear();
-            //numericUpDownCantidadLosa.Value += 1;
-            //numericUpDownCantidadLosa.Value -= 1;
+            int ns = dataGridView1.Rows.Count;
+            dataGridView1.Rows.Clear();
+            for (int z = 1; z <= ns; z++)
+            {
+                dataGridView1.Rows.Add(1);
+                dataGridView1.Rows[z-1].Cells[0].Value = "L-" + Convert.ToString(z);
+            }
+            
         }
 
         private void buttonRehacer_Click(object sender, EventArgs e)
@@ -706,6 +711,13 @@ namespace DiseñoCalcLosa
         private void rectangleTitulo_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            CrearProyectForm cpf = new CrearProyectForm();
+            this.Hide();
+            cpf.Show();
         }
 
 
