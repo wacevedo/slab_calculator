@@ -17,8 +17,7 @@ namespace DiseñoCalcLosa
         public MenuForm()
         {
             InitializeComponent();
-            axWindowsMediaPlayer1.uiMode = "none";
-            axWindowsMediaPlayer1.stretchToFit = true;  
+             
         }
 
         [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
@@ -37,9 +36,13 @@ namespace DiseñoCalcLosa
             buttonExport.Visible = false;
             buttonLosa.Visible = false;
 
+            axWindowsMediaPlayer1.uiMode = "none";
+            axWindowsMediaPlayer1.stretchToFit = true;
+            
             axWindowsMediaPlayer1.URL = "video.mp4";//cargando video            
             axWindowsMediaPlayer1.settings.setMode("loop",true);
             axWindowsMediaPlayer1.settings.mute = true;
+            
 
             groupBoxProRecient.Visible = false;
             buttonArcXml.Visible = false;
