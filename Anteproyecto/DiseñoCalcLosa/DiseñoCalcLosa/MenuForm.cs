@@ -12,7 +12,7 @@ using AlphaForms;
 
 namespace DiseñoCalcLosa
 {
-    public partial class MenuForm : Form  //AlphaForms
+    public partial class MenuForm : AlphaForm
     {
         public MenuForm()
         {

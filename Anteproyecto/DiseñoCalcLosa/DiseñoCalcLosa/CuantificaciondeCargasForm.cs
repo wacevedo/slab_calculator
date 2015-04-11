@@ -8,10 +8,11 @@ using System.Text;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
 using DatabaseLosa;
+using AlphaForms;
 
 namespace DiseñoCalcLosa
 {
-    public partial class CuantificaciondeCargasForm : Form
+    public partial class CuantificaciondeCargasForm : AlphaForm
     {
         public CuantificaciondeCargasForm()
         {

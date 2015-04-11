@@ -7,9 +7,11 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
+using AlphaForms;
+
 namespace DiseñoCalcLosa
 {
-    public partial class TablaDeCoeficientesForm : Form
+    public partial class TablaDeCoeficientesForm : AlphaForm
     {
         public TablaDeCoeficientesForm()
         {

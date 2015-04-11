@@ -15,7 +15,7 @@ using System.Xml;
 
 namespace DiseñoCalcLosa
 {
-    public partial class VerProyectoForm : Form //ponerlo alphaform al final
+    public partial class VerProyectoForm : AlphaForm //ponerlo alphaform al final
     {
         public VerProyectoForm()
         {

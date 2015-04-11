@@ -8,10 +8,11 @@ using System.Text;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
 using DatabaseLosa;
+using AlphaForms;
 
 namespace DiseñoCalcLosa
 {
-    public partial class CalcLosaForm : Form //ponerlo alphaform al final
+    public partial class CalcLosaForm : AlphaForm
     {
         public DatabaseLosa.Proyecto project;        
 

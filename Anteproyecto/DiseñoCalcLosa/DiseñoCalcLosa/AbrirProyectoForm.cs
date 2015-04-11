@@ -10,10 +10,11 @@ using System.Runtime.InteropServices;
 using System.IO;
 using AlphaForms;
 using System.Xml;
+using AlphaForms;
 
 namespace DiseñoCalcLosa
 {
-    public partial class AbrirProyectoForm : Form
+    public partial class AbrirProyectoForm : AlphaForm
     {
         public AbrirProyectoForm()
         {
