@@ -48,6 +48,7 @@ namespace DiseñoCalcLosa
             buttonArcXml.Visible = false;
             buttonDropbox.Visible = false;
             buttonOnedrive.Visible = false;
+            buttonSettings.Visible = false;
            
         }
 
