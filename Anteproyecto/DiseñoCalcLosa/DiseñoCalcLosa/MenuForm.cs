@@ -16,8 +16,21 @@ namespace DiseñoCalcLosa
     {
         public MenuForm()
         {
-            InitializeComponent();
-             
+            InitializeComponent();             
+        }
+        //----Singleton 
+        private static MenuForm instance = null;
+
+        public static MenuForm Instance
+        {
+            get
+            {
+                if (instance == null)
+                {
+                    instance = new MenuForm();
+                }
+                return instance;
+            }
         }
 
         [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]

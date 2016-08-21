@@ -1,4 +1,4 @@
-﻿using System;
+﻿    using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -130,7 +130,7 @@ namespace DiseñoCalcLosa
         private void button1_Click(object sender, EventArgs e)
         {
             this.Hide();
-            MenuForm wMenu = new MenuForm();
+            MenuForm wMenu = MenuForm.Instance;
             wMenu.Show();
             GC.WaitForPendingFinalizers();
             GC.Collect();

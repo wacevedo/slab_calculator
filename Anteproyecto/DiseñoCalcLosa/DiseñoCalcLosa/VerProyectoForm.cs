@@ -94,7 +94,7 @@ namespace DiseñoCalcLosa
 
         private void buttSalir_Click(object sender, EventArgs e)
         {
-            MenuForm mf = new MenuForm();
+            MenuForm mf = MenuForm.Instance;
             this.Hide();            
             mf.Show();
             GC.WaitForPendingFinalizers();

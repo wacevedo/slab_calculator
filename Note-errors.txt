@@ -1,0 +1,9 @@
+1- If you are having problems with Microsoft.VisualBasic.PowerPacks.VS try this:
+	http://stackoverflow.com/questions/17133879/application-crashes-on-startup-missing-microsoft-visualbasic-powerpacks
+2- If you are getting this error 'Microsoft.ACE.OLEDB.12.0' provider is not registered on the local machine error
+	trying to connect to an Access database in visual studio but keep getting this error?
+	try installing this first: http://www.microsoft.com/download/en/details.aspx?id=13255
+	however if, like me, that doesnt work for you, try the following method:
+	NOTE: this DOES work for office 2010 even though it is for 2007 office, dont ask me why it just does :)
+	1. download and install this: http://www.microsoft.com/download/en/confirmation.aspx?id=23734
+	2. in VS click add data source, follow the wizard and enjoy! :)

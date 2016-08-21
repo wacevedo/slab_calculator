@@ -38,7 +38,7 @@ namespace DiseñoCalcLosa
         {
             //this.Close();
             this.Hide();
-            MenuForm wMenu = new MenuForm();
+            MenuForm wMenu = MenuForm.Instance;
             wMenu.Show();
             GC.WaitForPendingFinalizers();
             GC.Collect();
@@ -52,7 +52,7 @@ namespace DiseñoCalcLosa
         private void button1_Click(object sender, EventArgs e)
         {
             this.Hide();
-            MenuForm wMenu = new MenuForm();
+            MenuForm wMenu = MenuForm.Instance;
             wMenu.Show();
             GC.WaitForPendingFinalizers();
             GC.Collect();
