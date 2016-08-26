@@ -1,4 +1,6 @@
-﻿namespace DiseñoCalcLosa
+﻿using System;
+
+namespace DiseñoCalcLosa
 {
     partial class MenuForm
     {
@@ -17,7 +19,9 @@
             {
                 components.Dispose();
             }
+
             base.Dispose(disposing);
+           
         }
 
         #region Windows Form Designer generated code
@@ -55,8 +59,8 @@
             // 
             // rectangleTitulo
             // 
-            this.rectangleTitulo.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.rectangleTitulo.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.rectangleTitulo.FillColor = System.Drawing.Color.CadetBlue;
             this.rectangleTitulo.FillGradientColor = System.Drawing.Color.LightGreen;
             this.rectangleTitulo.FillStyle = Microsoft.VisualBasic.PowerPacks.FillStyle.Solid;
@@ -80,9 +84,9 @@
             // 
             // rectangleMain
             // 
-            this.rectangleMain.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.rectangleMain.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.rectangleMain.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.rectangleMain.FillColor = System.Drawing.Color.CadetBlue;
             this.rectangleMain.FillGradientColor = System.Drawing.Color.LightGreen;
@@ -137,9 +141,9 @@
             // 
             this.groupBoxProRecient.BackColor = System.Drawing.Color.SeaGreen;
             this.groupBoxProRecient.Controls.Add(this.listViewProyectosRecientes);
-            this.groupBoxProRecient.Location = new System.Drawing.Point(416, 208);
+            this.groupBoxProRecient.Location = new System.Drawing.Point(368, 168);
             this.groupBoxProRecient.Name = "groupBoxProRecient";
-            this.groupBoxProRecient.Size = new System.Drawing.Size(166, 213);
+            this.groupBoxProRecient.Size = new System.Drawing.Size(214, 213);
             this.groupBoxProRecient.TabIndex = 32;
             this.groupBoxProRecient.TabStop = false;
             this.groupBoxProRecient.Enter += new System.EventHandler(this.groupBoxProRecient_Enter);
@@ -150,10 +154,10 @@
             this.listViewProyectosRecientes.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.columnHeaderProjects});
             this.listViewProyectosRecientes.FullRowSelect = true;
-            this.listViewProyectosRecientes.Location = new System.Drawing.Point(0, 0);
+            this.listViewProyectosRecientes.Location = new System.Drawing.Point(0, 5);
             this.listViewProyectosRecientes.MultiSelect = false;
             this.listViewProyectosRecientes.Name = "listViewProyectosRecientes";
-            this.listViewProyectosRecientes.Size = new System.Drawing.Size(166, 213);
+            this.listViewProyectosRecientes.Size = new System.Drawing.Size(214, 213);
             this.listViewProyectosRecientes.TabIndex = 0;
             this.listViewProyectosRecientes.UseCompatibleStateImageBehavior = false;
             this.listViewProyectosRecientes.View = System.Windows.Forms.View.SmallIcon;
@@ -252,13 +256,13 @@
             this.buttonProyectosRecientes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonProyectosRecientes.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonProyectosRecientes.Image = global::DiseñoCalcLosa.Properties.Resources.documents_folder_48;
-            this.buttonProyectosRecientes.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.buttonProyectosRecientes.Location = new System.Drawing.Point(416, 117);
+            this.buttonProyectosRecientes.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.buttonProyectosRecientes.Location = new System.Drawing.Point(368, 117);
             this.buttonProyectosRecientes.Name = "buttonProyectosRecientes";
-            this.buttonProyectosRecientes.Size = new System.Drawing.Size(166, 91);
+            this.buttonProyectosRecientes.Size = new System.Drawing.Size(214, 57);
             this.buttonProyectosRecientes.TabIndex = 3;
             this.buttonProyectosRecientes.Text = "Proyectos Recientes";
-            this.buttonProyectosRecientes.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
+            this.buttonProyectosRecientes.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.buttonProyectosRecientes.UseVisualStyleBackColor = false;
             this.buttonProyectosRecientes.Click += new System.EventHandler(this.button6_Click);
             this.buttonProyectosRecientes.MouseEnter += new System.EventHandler(this.buttonProyectosRecientes_MouseEnter);
@@ -302,13 +306,13 @@
             this.buttonAbrirPro.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonAbrirPro.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonAbrirPro.Image = global::DiseñoCalcLosa.Properties.Resources.Opened_Folder_50;
-            this.buttonAbrirPro.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.buttonAbrirPro.Location = new System.Drawing.Point(199, 138);
+            this.buttonAbrirPro.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.buttonAbrirPro.Location = new System.Drawing.Point(28, 180);
             this.buttonAbrirPro.Name = "buttonAbrirPro";
-            this.buttonAbrirPro.Size = new System.Drawing.Size(166, 91);
+            this.buttonAbrirPro.Size = new System.Drawing.Size(177, 57);
             this.buttonAbrirPro.TabIndex = 1;
             this.buttonAbrirPro.Text = "Abrir Proyecto";
-            this.buttonAbrirPro.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
+            this.buttonAbrirPro.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.buttonAbrirPro.UseVisualStyleBackColor = false;
             this.buttonAbrirPro.Click += new System.EventHandler(this.button2_Click);
             this.buttonAbrirPro.MouseEnter += new System.EventHandler(this.buttonAbrirPro_MouseEnter);
@@ -320,13 +324,13 @@
             this.buttonCrearPro.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonCrearPro.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonCrearPro.Image = global::DiseñoCalcLosa.Properties.Resources.add_file_50;
-            this.buttonCrearPro.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.buttonCrearPro.Location = new System.Drawing.Point(27, 138);
+            this.buttonCrearPro.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.buttonCrearPro.Location = new System.Drawing.Point(28, 117);
             this.buttonCrearPro.Name = "buttonCrearPro";
-            this.buttonCrearPro.Size = new System.Drawing.Size(166, 91);
+            this.buttonCrearPro.Size = new System.Drawing.Size(177, 57);
             this.buttonCrearPro.TabIndex = 0;
             this.buttonCrearPro.Text = "Crear Proyecto";
-            this.buttonCrearPro.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
+            this.buttonCrearPro.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.buttonCrearPro.UseVisualStyleBackColor = false;
             this.buttonCrearPro.Click += new System.EventHandler(this.button1_Click);
             this.buttonCrearPro.MouseEnter += new System.EventHandler(this.button1_MouseEnter);
@@ -371,8 +375,6 @@
         }
 
         #endregion
-
-        public Microsoft.VisualBasic.PowerPacks.RectangleShape rectangleTitulo;
         private Microsoft.VisualBasic.PowerPacks.ShapeContainer shapeContainer1;
         public System.Windows.Forms.Button buttSalir;
         public System.Windows.Forms.Button buttMini;
@@ -387,10 +389,11 @@
         private AxWMPLib.AxWindowsMediaPlayer axWindowsMediaPlayer1;
         private System.Windows.Forms.Label lblTitulo;
         private System.Windows.Forms.GroupBox groupBoxProRecient;
-        public Microsoft.VisualBasic.PowerPacks.RectangleShape rectangleMain;
         private System.Windows.Forms.ListView listViewProyectosRecientes;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ColumnHeader columnHeaderProjects;
         private System.Windows.Forms.Button buttonSettings;
+        private Microsoft.VisualBasic.PowerPacks.RectangleShape rectangleTitulo;
+        private Microsoft.VisualBasic.PowerPacks.RectangleShape rectangleMain;
     }
 }
